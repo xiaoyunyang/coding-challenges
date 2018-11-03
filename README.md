@@ -13,3 +13,10 @@
 - [solution](/leetcode/42-trapping-rain-water.js)
 - [repl](https://repl.it/@xiaoyunyang/leetcode-trapping-rain-water)
 - while-loop, two pointers, O(N) solution
+
+43 - Multiply Strings
+
+- [problem](https://leetcode.com/problems/multiply-strings/)
+- [solution](/leetcode/43-multiply-strings.js)
+- [repl](https://repl.it/@xiaoyunyang/leetcode-multiply-strings)
+- nested for-loops, O(N^2) solution
