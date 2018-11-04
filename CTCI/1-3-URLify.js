@@ -12,6 +12,6 @@ function URLify(str) {
     }
     last = curr
   }
-  // post-processing step. Chop off %20 at the end
+  // post-processing step. Chop off single instance of %20 at the end
   return res.replace(/%20$/, '')
 }
