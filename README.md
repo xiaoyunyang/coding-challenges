@@ -66,3 +66,18 @@
 - [solution](/CTCI/1-6-string-compression.js)
 - [repl](https://repl.it/@xiaoyunyang/CTCI-1-6-string-compression)
 - O(N) solution. Make sure to check edge cases. There is an optimization we could do to break from the loop operation when a condition is met.
+
+## Linked List
+
+See JavaScript Implementations of [LinkedList](/datastructure/LinkedList.js) (also available in [repl](https://repl.it/@xiaoyunyang/LinkedList)).
+
+2.1 - Remove Dups
+
+- Problem: Remove duplicates from an unsorted linked list. How would you solve this problem if a temporary buffer is not allowed?
+- [solution](/CTCI/2-1-remove-dups.js)
+- [repl](https://repl.it/@xiaoyunyang/CTCI-2-1-remove-dups)
+- O(N) solution using a hash table and using the `curr` and `prev` pointers. With no buffers, we use the "runner technique" where we iterate through the linked list using `curr` pointer while we have another pointer called `runner` that goes through the rest of the list which comes after `curr` to check and remove any duplicates.
+
+## Stacks and Queues
+
+See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly Linked List (also available in [repl](https://repl.it/@xiaoyunyang/Queue)).
