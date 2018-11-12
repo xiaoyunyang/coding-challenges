@@ -81,3 +81,11 @@ See JavaScript Implementations of [LinkedList](/datastructure/LinkedList.js) (al
 ## Stacks and Queues
 
 See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly Linked List (also available in [repl](https://repl.it/@xiaoyunyang/Queue)).
+
+
+### Graph
+
+- Problem: Given a Directed Graph, design an algorithm to fund out whether there is a route between two nodes.
+- [solution](/CTCI/4-1-route-between-nodes.js)
+- [repl](https://repl.it/@xiaoyunyang/CTCI-4-1-route-between-nodes)
+- We can use either BFS or DFS for this problem. BFS is more efficient. Make sure we set graph node state to `UNVISITED`, `VISITED`, `VISITING` as we traverse through the graph.

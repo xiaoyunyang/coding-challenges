@@ -4,11 +4,11 @@ function DoublyNode(val) {
   this.next = null
 }
 
-function Queue() {
+export default function Queue() {
   this.front = null
   this.back = null
 
-  this.add = item => {
+  this.enqueue = item => {
     let newNode = new DoublyNode(item)
     if(!this.front) {
       this.front = newNode
@@ -37,7 +37,7 @@ function Queue() {
     }
     return `null${vals}`
   }
-  this.remove = () => {
+  this.dequeue = () => {
     // remove from the front and return the removed node's val
     if(!this.front) return null
     let firstNode = this.front

@@ -2,9 +2,10 @@ function SinglyNode(val) {
   this.val = val
   this.next = null
 }
-function LinkedList(arr) {
+
+export default function LinkedList(arr) {
   this.head = arr ? createLL(arr) : null
-  
+
   function createLL(arr) {
     let ll = null;
     for(let i=arr.length-1; i>=0; i-=1) {
@@ -59,7 +60,7 @@ function LinkedList(arr) {
         return
       }
       // if there is a next, we haven't found
-      // the tail yet. so 
+      // the tail yet. so
       loop(curr, curr.next)
     }
 
