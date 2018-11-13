@@ -1,5 +1,4 @@
 import FakeQueue from '../datastructure/FakeQueue';
-import GraphNode from '../datastructure/GraphNode';
 
 // Enum
 const VISITED = 'VISITED';
