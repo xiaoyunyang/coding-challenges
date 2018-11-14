@@ -96,3 +96,12 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
 - Problem: Given a sorted (increasing order) array with unique elements, write an algorithm to create a Binary Search Tree (BST) with minimal height.
 - [solution](/CTCI/4-2-minimal-tree.js)
 - [repl](https://repl.it/@xiaoyunyang/CTCI-4-2-minimal-tree)
+
+### Hard Problems
+
+17.26 - Sparse Similarity
+
+- Problem: Print out the documents IDs and their similarity score iff the similarity score is greater than 0. We define similarity score as the result of dividing the number of intersections with the number of unions.
+- [solution](/CTCI/17-26-sparse-similarity.js)
+- [repl](https://repl.it/@xiaoyunyang/CTCI-hard-sparse-similarity)
+- My solution involves building two hash tables.
