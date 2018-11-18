@@ -21,6 +21,13 @@
 - [repl](https://repl.it/@xiaoyunyang/leetcode-multiply-strings)
 - nested for-loops, O(N^2) solution
 
+135 - Candy
+
+- [problem](https://leetcode.com/problems/candy/)
+- [solution](/leetcode/135-candy.js)
+- [repl](https://repl.it/@xiaoyunyang/leetcode-candy)
+- O(N) superposition. Evaluate left2right and right2left, then combine solution via max of the two.
+
 # Cracking the Coding Interview
 
 ## Arrays and Strings
