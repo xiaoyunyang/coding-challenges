@@ -93,7 +93,7 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
 
 4.1 - Route Between Nodes
 
-- Problem: Given a Directed Graph, design an algorithm to fund out whether there is a route between two nodes.
+- Problem: Given a Directed Graph, design an algorithm to find out whether there is a route between two nodes.
 - [solution](/CTCI/4-1-route-between-nodes.js)
 - [repl](https://repl.it/@xiaoyunyang/CTCI-4-1-route-between-nodes)
 - We can use either BFS or DFS for this problem. BFS is more efficient. Make sure we set graph node state to `UNVISITED`, `VISITED`, `VISITING` as we traverse through the graph.
@@ -108,7 +108,27 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
 
 17.26 - Sparse Similarity
 
-- Problem: Print out the documents IDs and their similarity score iff the similarity score is greater than 0. We define similarity score as the result of dividing the number of intersections with the number of unions.
+- Problem: Print out the documents IDs and their similarity score iff the similarity score is greater than 0. We define similarity score as the result of dividing the number of intersections with the number of unions. For example:
+
+  Input:
+
+  ```javascript
+  const input = {
+    13: [14,15,100,9,3],
+    16: [32, 1, 9, 3, 5],
+    19: [15, 29, 2, 6, 8, 7],
+    24: [7, 10]
+  }
+  ```
+
+  Output:
+  
+  ```
+  13,16 : 0.25
+  19,24 : 0.14285714285714285
+  13,19 : 0.1
+  ```
+
 - [solution](/CTCI/17-26-sparse-similarity.js)
 - [repl](https://repl.it/@xiaoyunyang/CTCI-hard-sparse-similarity)
 - My solution involves building two hash tables.
