@@ -112,3 +112,57 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
 - [solution](/CTCI/17-26-sparse-similarity.js)
 - [repl](https://repl.it/@xiaoyunyang/CTCI-hard-sparse-similarity)
 - My solution involves building two hash tables.
+
+# Misc
+
+## Deserialize-1
+
+- Problem:
+
+  Given:
+
+  ```javascript
+  const locations = [
+    {"id": 1, "name": "San Francisco Bay Area", "parent_id": null},
+    {"id": 2, "name": "San Jose", "parent_id": 3},
+    {"id": 3, "name": "South Bay", "parent_id": 1},
+    {"id": 4, "name": "San Francisco", "parent_id": 1},
+    {"id": 5, "name": "Manhattan", "parent_id": 6},
+    {"id": 6, "name": "New York", "parent_id": null},
+    {"id": 7, "name": "Menlo Park", "parent_id": 1},
+    {"id": 8, "name": "Brooklyn", "parent_id": 6},
+    {"id": 9, "name": "Alphabet City", "parent_id": 10},
+    {"id": 10, "name": "East Village", "parent_id": 13},
+    {"id": 11, "name": "Greenpoint", "parent_id": 8},
+    {"id": 12, "name": "Williamsburg", "parent_id": 8},
+    {"id": 13, "name": "Lower Manhattan", "parent_id": 5},
+    {"id": 14, "name": "Soho", "parent_id": 13},
+    {"id": 15, "name": "Financial District", "parent_id": 13}
+  ]
+  ```
+  
+  Print out:
+
+  ```
+  New York
+  -Brooklyn
+  --Greenpoint
+  --Williamsburg
+  -Manhattan
+  --Lower Manhattan
+  ---East Village
+  ----Alphabet City
+  ---Financial District
+  ---Soho
+  San Francisco Bay Area
+  -Menlo Park
+  -San Francisco
+  -South Bay
+  --San Jose
+  ```
+  
+  Rules: (1) Child locations should be immediately after their parent, with an extra dash prepended. (2) Locations of the same level of depth should be alphabetically sorted. (3) Assume that the actual list of location will be longer (up to 100 locations), and have max up to 5 levels of depth
+
+- [solution](/misc/deserialize-1.js)
+- [repl](https://repl.it/@xiaoyunyang/AngelList-coding-test)
+- My solution involves recursively building a tree where each node is a general [TreeNode](/datastructure/Node/TreeNode.js) and nodes are inserted into an ordered array of children using a `insertIntoSortedArr` function.

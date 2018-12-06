@@ -1,7 +1,4 @@
-function SinglyNode(val) {
-  this.val = val
-  this.next = null
-}
+import SinglyNode from './Node/SinglyNode'
 
 export default function LinkedList(arr) {
   this.head = arr ? createLL(arr) : null

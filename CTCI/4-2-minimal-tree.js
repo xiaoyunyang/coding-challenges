@@ -1,4 +1,4 @@
-import * as Node  from '../datastructure/BSTNode';
+import * as Node  from '../datastructure/Node/BSTNode';
 
 function createBST(arr) {
   if(arr.length === 0) return null

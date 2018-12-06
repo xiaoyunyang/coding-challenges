@@ -1,8 +1,4 @@
-function DoublyNode(val) {
-  this.val = val;
-  this.prev = null
-  this.next = null
-}
+import DoublyNode from './Node/DoublyNode'
 
 export default function Queue() {
   this.front = null
