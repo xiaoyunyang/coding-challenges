@@ -4,7 +4,9 @@ One advantage of a functional data structure is chaining.
 For instance:
   
  let q = new Queue() // queue as functional datastructure
- q.enqueue(1).enqueue(2).enqueue(3).dequeue().getData()
+ q.enqueue(1).enqueue(2).enqueue(3).dequeue()[1].getData() //> [2,1]
+ let removed = q.dequeue()[0] //> 2
+ q.getData() //> [1]
 
  On the other hand, the non-functional FakeQueue implementation 
  requires the following to construct the queue
@@ -13,8 +15,10 @@ For instance:
   q.enqueue(1)
   q.enqueue(2)
   q.enqueue(3)
-  q.dequeue()
-  q.data
+  q.dequeue() //> 3
+  q.data //> [2, 1]
+  let removed = q.dequeue() //> 2
+  q.data //> [1]
  */
 
 function Queue() {
@@ -24,8 +28,7 @@ function Queue() {
     return this
   }
   this.dequeue = () => {
-    this.data.pop()
-    return this
+    return [this.data.shift(), this]
   }
   this.getData = () => this.data
 }
