@@ -139,7 +139,7 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
 
 - Problem:
 
-  Given:
+  Given grid and point:
 
   ```javascript
   let grid = [ // grid could be any size
@@ -149,7 +149,8 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
     ['red', 'red', 'green', 'red', 'green'],
     ['red', 'green', 'red', 'red', 'red'],
   ]
-  let p = [4,2] // a valid location on the grid
+
+  let p = [4,2] // a valid location in the grid
   ```
 
   find all the locations which has the same color as the given location return the location (indices) in ascending order. For example, given the grid and point above, you should return:

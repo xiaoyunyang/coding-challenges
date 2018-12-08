@@ -9,7 +9,8 @@ function neighbors(p) {
   return {top, bottom, left, right}
 }
 
-function isSameColor(p1, p2) {
+function isSameColor(grid, p1, p2) {
+  // also ensures the points are valid locations within the grid
   if (typeof grid[p1[0]] === 'undefined' || 
     typeof grid[p2[0]] === 'undefined') {
     return false
@@ -17,22 +18,15 @@ function isSameColor(p1, p2) {
   return grid[p1[0]][p1[1]] === grid[p2[0]][p2[1]]
 }
 
-function findMaxConnectedDFS(p) {
+function findMaxConnectedDFS(grid, p) {
   let explored = {}
   explored[p] = true
-  let res = [p] // optimization: use heap instead of array
+  let res = [p]
 
+  // explore neighbors via DFS using recursion
   function explore(p) {
-    if(p[0]<0 || p[1]<0) {
-      return
-    }
-    if(p[0]>grid.length || p[1]>grid[0].length) {
-      return
-    }
-
-    // breadth first search exploring all the neighbors
     Object.values(neighbors(p)).forEach(neighbor => {
-      if(isSameColor(p, neighbor) && !explored[neighbor]) {
+      if(isSameColor(grid, p, neighbor) && !explored[neighbor]) {
         res.push(neighbor)
         explored[neighbor] = true
         return explore(neighbor)
@@ -44,21 +38,20 @@ function findMaxConnectedDFS(p) {
   return sort2DArr(res)
 }
 
-function findMaxConnectedBFS(p) {
+function findMaxConnectedBFS(grid, p) {
   let explored = {}
-  let res = [p] // optimization: use heap instead of array
+  let res = [p]
 
   let q = new Queue()
   q = q.enqueue(p)
 
-  // explore - using a while-loop
+  // explore neighbors via BFS using a queue and a while-loop
   let u = null
   while(!q.isEmpty()) {
     [u, q] = q.dequeue()
-    // console.log('u', u)
     
     Object.values(neighbors(u)).forEach(v => {
-      if (isSameColor(u, v) && !explored[v]) {
+      if (isSameColor(grid, u, v) && !explored[v]) {
         res.push(v)
         q = q.enqueue(v)
       }
