@@ -135,6 +135,33 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
 
 # Misc
 
+## Flood Fill
+
+- Problem:
+
+  Given:
+
+  ```javascript
+  let grid = [ // grid could be any size
+    ['blue', 'blue', 'red', 'red', 'red'],
+    ['pink', 'pink', 'red', 'red', 'red'],
+    ['red', 'pink', 'green', 'green', 'red'],
+    ['red', 'red', 'green', 'red', 'green'],
+    ['red', 'green', 'red', 'red', 'red'],
+  ]
+  let p = [4,2] // a valid location on the grid
+  ```
+
+  find all the locations which has the same color as the given location return the location (indices) in ascending order. For example, given the grid and point above, you should return:
+
+  ```javascript
+  [ [ 3, 3 ], [ 4, 2 ], [ 4, 3 ], [ 4, 4 ] ]
+  ```
+
+- [solution](/misc/flood-fill.js)
+- [repl](https://repl.it/@xiaoyunyang/flood-fill)
+- The key to solving this problem is you need to do breadth-first-search and maintain a list of explored nodes. I solved the problem using both recursion and queue + while loop. Both should provide the same result. For printing out the list of points in ascending order, I had a separate function that sorted the result using JavaScript's built-in sort (quicksort), which has O(NlogN) runtime. A potential optimization for the overall algorithm is to maintain the result as a heap rather than an array. Using an array, insert is O(1) as we use the `Array.prototype.push` method; however, the tradeoff is we need to run the O(NlogN) algorithm at the end. However, if we use a heap, inserting into a heap is O(logN). The advantage is we don't have to sort afterwards.
+
 ## Deserialize-1
 
 - Problem:
