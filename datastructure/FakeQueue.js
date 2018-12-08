@@ -1,9 +1,9 @@
 export default function FakeQueue() {
-  this.front = null
-  this.back = null
-  let arr = []
+  let arr = [] // private variable
+
   this.enqueue = val => arr.push(val)
-  this.dequeue = () => {return arr.shift()}
+  this.dequeue = () => arr.shift()
   this.isEmpty = () => arr.length === 0
+  this.getData = () => arr
   this.print = () => console.log(arr)
 }

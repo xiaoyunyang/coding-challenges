@@ -1,4 +1,4 @@
-import Queue from '../../datastructure/FakeQueue_functional'
+import Queue from '../../datastructure/FakeQueue_immutable'
 import sort2DArr from './flood-fill'
 
 function neighbors(p) {
