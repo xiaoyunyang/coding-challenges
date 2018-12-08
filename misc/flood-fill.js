@@ -17,7 +17,7 @@ function isSameColor(p1, p2) {
   return grid[p1[0]][p1[1]] === grid[p2[0]][p2[1]]
 }
 
-function findMaxConnected(p) {
+function findMaxConnectedDFS(p) {
   let explored = {}
   explored[p] = true
   let res = [p] // optimization: use heap instead of array
@@ -44,7 +44,7 @@ function findMaxConnected(p) {
   return sort2DArr(res)
 }
 
-function findMaxConnectedQueue(p) {
+function findMaxConnectedBFS(p) {
   let explored = {}
   let res = [p] // optimization: use heap instead of array
 
@@ -69,6 +69,6 @@ function findMaxConnectedQueue(p) {
 }
 
 export {
-  findMaxConnected,
-  findMaxConnectedQueue
+  findMaxConnectedDFS,
+  findMaxConnectedBFS
 }
