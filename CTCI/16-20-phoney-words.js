@@ -38,8 +38,6 @@ function canMakeWordFromNum(ltrArr, numArr) {
   return ltrArrCpy.length === 0
 }
 
-
-
 function phoneyWords(nums) {
   let numArr = []
   

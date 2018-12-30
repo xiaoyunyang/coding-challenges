@@ -4,8 +4,8 @@ https://repl.it/@xiaoyunyang/knuth-shuffle-and-sort
 */
 // O(NlogN) runtime and O(N) space
 function compare(a,b) {
-  let [ax, ay] = a.split(',')
-  let [bx, by] = b.split(',')
+  let [ax, ay] = a
+  let [bx, by] = b
   if(ax<bx) {
     return -1
   }
@@ -15,13 +15,13 @@ function compare(a,b) {
 }
 
 function sort2DArr(arr) {
-  let a = [...arr]
-  let dict = {}
-  arr.forEach(a => {
-    dict[a] = a
+  // must make a copy. Array.sort
+  // modifies the original array!
+  let arrCpy = [...arr] 
+
+  let sortedArr = arrCpy.sort((a,b) => {
+    return compare(a,b)
   })
-  let sortedKeys = Object.keys(dict).sort((a,b) => compare(a,b))
-  let sortedArr = sortedKeys.map(k => dict[k])
   return sortedArr
 }
 

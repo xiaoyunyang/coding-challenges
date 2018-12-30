@@ -236,3 +236,17 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
 - [solution](/misc/deserialize-1.js)
 - [repl](https://repl.it/@xiaoyunyang/AngelList-coding-test)
 - My solution involves recursively building a tree where each node is a general [TreeNode](/datastructure/Node/TreeNode.js) and nodes are inserted into an ordered array of children using a `insertIntoSortedArr` function.
+
+## Shuffle
+
+- Problem: Shuffle an array.
+- [solution](/misc/shuffle.js)
+- [repl](https://repl.it/@xiaoyunyang/knuth-shuffle-and-sort)
+- Note: Use the Knuth Shuffle (aka [Fisher-Yates shuffle](https://en.wikipedia.org/wiki/Fisher–Yates_shuffle))
+
+## Sort 2D Array
+
+- Problem: Sort a 2D array of pairs. The rule is we want to sort by the first elem, then the second elem.
+- [solution](/misc/sort2DArr.js)
+- [repl](https://repl.it/@xiaoyunyang/knuth-shuffle-and-sort)
+- Note: Write custom `compare` function to pass into `Array.sort`.
