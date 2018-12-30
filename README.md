@@ -104,6 +104,26 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
 - [solution](/CTCI/4-2-minimal-tree.js)
 - [repl](https://repl.it/@xiaoyunyang/CTCI-4-2-minimal-tree)
 
+### Moderate Problems
+
+16.20 - Phoney Words
+
+- Problem: On old cellphones,users typed on a numeric keypad and the phone would provide a list of words that matched these numbers. Each digit mapped to a set of 0 - 4 letters. Implement an algorithm to return a list of matching words, given a sequence of digits representing a phone number. You are provided a list of valid words (provided in whatever data structure you'd like).
+
+    ```
+    1     2     3
+          ABC   DEF
+    4     5     6
+    GHI   JKL   MNO
+    7     8     9
+    TUV   WXYZ  PQRS
+          0
+    ```
+
+- [solution](/CTCI/16-20-phoney-words.js)
+- [repl](https://repl.it/@xiaoyunyang/CTCI-16-20-phoney-words)
+- Note: O(M * N) where M is number of valid words in the dictionary and N is the length of the phone number. Because N is a small number (phone numbers are usually length 10), we can treat this as a constant. Therefore, the runtime is O(M).
+
 ### Hard Problems
 
 17.26 - Sparse Similarity
