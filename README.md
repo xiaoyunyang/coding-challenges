@@ -124,6 +124,12 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
 - [repl](https://repl.it/@xiaoyunyang/CTCI-16-20-phoney-words)
 - Note: O(M * N) where M is number of valid words in the dictionary and N is the length of the phone number. Because N is a small number (phone numbers are usually length 10), we can treat this as a constant. Therefore, the runtime is O(M).
 
+16.21 - Sum Swap
+
+- Problem: Given two arrays of integers, find a pair of values (one value from each array) that you can swap to give the two arrays the same sum
+- [solution](/CTCI/16-21-sum-swap.js)
+- [repl](https://repl.it/@xiaoyunyang/CTCI-16-21-sum-swap)
+
 ### Hard Problems
 
 17.26 - Sparse Similarity
