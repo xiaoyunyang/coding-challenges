@@ -104,6 +104,14 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
 - [solution](/CTCI/4-2-minimal-tree.js)
 - [repl](https://repl.it/@xiaoyunyang/CTCI-4-2-minimal-tree)
 
+### Math and Logic Puzzles
+
+6.1 - The Heavy Pill
+
+- Problem: You have 20 bottles of pills. 19 bottles have 1.0 gram pills, but one has pills of weight 1.1 grams. Given a scale that provides an exact measurement, how would you find the heavy bottle? You can only use the scale once.
+- [solution](/CTCI/6-1-the-heavy-pill.js)
+- [repl](https://repl.it/@xiaoyunyang/CTCI-6-1-the-heavy-pill)
+
 ### Moderate Problems
 
 16.20 - Phoney Words
