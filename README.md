@@ -114,6 +114,12 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
 
 ### Moderate Problems
 
+16.10 - Living People
+
+- Problem: Given a list of people with their birth and death years, implement a method to compute the year with the most number of people alive.
+- [solution](/CTCI/16-10-living-people.js)
+- [repl](https://repl.it/@xiaoyunyang/CTCI-16-10-living-people)
+
 16.20 - Phoney Words
 
 - Problem: On old cellphones,users typed on a numeric keypad and the phone would provide a list of words that matched these numbers. Each digit mapped to a set of 0 - 4 letters. Implement an algorithm to return a list of matching words, given a sequence of digits representing a phone number. You are provided a list of valid words (provided in whatever data structure you'd like).
