@@ -1,4 +1,22 @@
-# LeetCode
+# Coding Challenges Collection
+
+> Solutions to coding challenges and algorithm and data structure building blocks
+
+## Data Structures
+
+- [Linked List](/datastructure/LinkedList.js)
+- [Queue](/datastructure/Queue.js)
+- [MinHeap](/datastructure/minHeap.js)
+
+Nodes
+
+- [Singly Node](/datastructure/Node/SinglyNode.js) - use to implement Linked List
+- [Doubly Node](/datastructure/Node/DoublyNode.js) - use to implement a Queue
+- [Graph Node](/datastructure/Node/GraphNode.js) - use in Graph problems
+- [BST Node](/datastructure/Node/BSTNode.js) - use in Binary Search Tree problems
+- [Tree Node](/datastructure/Node/TreeNode.js) - use in Tree problems
+
+## LeetCode
 
 41 - First Missing Postiive
 
@@ -28,9 +46,9 @@
 - [repl](https://repl.it/@xiaoyunyang/leetcode-candy)
 - O(N) superposition. Evaluate left2right and right2left, then combine solution via max of the two.
 
-# Cracking the Coding Interview
+## Cracking the Coding Interview
 
-## Arrays and Strings
+### Arrays and Strings
 
 1.1 - isUnique
 
@@ -74,7 +92,7 @@
 - [repl](https://repl.it/@xiaoyunyang/CTCI-1-6-string-compression)
 - O(N) solution. Make sure to check edge cases. There is an optimization we could do to break from the loop operation when a condition is met.
 
-## Linked List
+### Linked List
 
 See JavaScript Implementations of [LinkedList](/datastructure/LinkedList.js) (also available in [repl](https://repl.it/@xiaoyunyang/LinkedList)).
 
@@ -85,7 +103,7 @@ See JavaScript Implementations of [LinkedList](/datastructure/LinkedList.js) (al
 - [repl](https://repl.it/@xiaoyunyang/CTCI-2-1-remove-dups)
 - O(N) solution using a hash table and using the `curr` and `prev` pointers. With no buffers, we use the "runner technique" where we iterate through the linked list using `curr` pointer while we have another pointer called `runner` that goes through the rest of the list which comes after `curr` to check and remove any duplicates.
 
-## Stacks and Queues
+### Stacks and Queues
 
 See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly Linked List (also available in [repl](https://repl.it/@xiaoyunyang/Queue)).
 
@@ -173,9 +191,9 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
 - [repl](https://repl.it/@xiaoyunyang/CTCI-hard-sparse-similarity)
 - My solution involves building two hash tables.
 
-# Misc
+## Misc
 
-## Flood Fill
+### Flood Fill
 
 - Problem:
 
@@ -205,7 +223,7 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
 - The recursion approach is also called the implicit stack-based approach because we are  creating call stacks when we recurse. This is less memory efficient than a real stack.
 - For more on the flood fill problem, read the [wiki article](https://www.wikiwand.com/en/Flood_fill)
 
-## Deserialize-1
+### Deserialize-1
 
 - Problem:
 
@@ -257,14 +275,14 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
 - [repl](https://repl.it/@xiaoyunyang/AngelList-coding-test)
 - My solution involves recursively building a tree where each node is a general [TreeNode](/datastructure/Node/TreeNode.js) and nodes are inserted into an ordered array of children using a `insertIntoSortedArr` function.
 
-## Shuffle
+### Shuffle
 
 - Problem: Shuffle an array.
 - [solution](/misc/shuffle.js)
 - [repl](https://repl.it/@xiaoyunyang/knuth-shuffle-and-sort)
 - Note: Use the Knuth Shuffle (aka [Fisher-Yates shuffle](https://en.wikipedia.org/wiki/Fisher–Yates_shuffle))
 
-## Sort 2D Array
+### Sort 2D Array
 
 - Problem: Sort a 2D array of pairs. The rule is we want to sort by the first elem, then the second elem.
 - [solution](/misc/sort2DArr.js)
