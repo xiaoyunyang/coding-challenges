@@ -1,15 +1,12 @@
 {
   "name": "coding-challenges",
   "version": "1.0.0",
-  "description": "41 - First Missing Postiive",
+  "description": "collection of algos and data structures",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register"
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xiaoyunyang/coding-challenges.git"
-  },
+  "repository": "git+https://github.com/xiaoyunyang/coding-challenges.git",
   "author": "Xiaoyun Yang",
   "license": "MIT",
   "bugs": {
@@ -17,6 +14,14 @@
   },
   "homepage": "https://github.com/xiaoyunyang/coding-challenges#readme",
   "dependencies": {
-    "mocha": "^5.2.0"
+    "jest": "^24.7.1",
+    "mocha": "^5.2.0",
+    "ramda": "^0.26.1"
+  },
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-jest": "^24.7.1"
   }
 }
