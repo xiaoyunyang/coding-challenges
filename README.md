@@ -6,7 +6,7 @@
 
 - [Linked List](/datastructure/LinkedList.js)
 - [Queue](/datastructure/Queue.js)
-- [MinHeap](/datastructure/minHeap.js)
+- [MinHeap](/datastructure/MinHeap.js)
 
 Nodes
 
