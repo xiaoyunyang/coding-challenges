@@ -49,10 +49,18 @@ Nodes
 820 - Short Encoding of Words
 
 - [problem](https://leetcode.com/problems/short-encoding-of-words)
-- [solution](/leetcode/820-short-encoding-of-words)
+- [solution](/leetcode/820-short-encoding-of-words.js)
 - [repl](https://repl.it/@xiaoyunyang/leetcode-short-encoding-of-words)
-- [whiteboarding](/whiteboarding/leetcode/820-short-encoding-of-words.png.png)
+- [whiteboarding](/whiteboarding/leetcode/820-short-encoding-of-words.png)
 - Solution using trie of the reversed strings
+
+1029 - Two City Costs
+
+- [problem](https://leetcode.com/problems/two-city-scheduling)
+- [solution](/leetcode/1029-two-city-scheduling.js)
+- [repl](https://repl.it/@xiaoyunyang/leetcode-1029-two-city-scheduling)
+- [whiteboarding](/whiteboarding/leetcode/1029-two-city-scheduling.png)
+- Solution using a while loop with two pointers to go through a sorted list of cost difference between the cities
 
 ## Cracking the Coding Interview
 
