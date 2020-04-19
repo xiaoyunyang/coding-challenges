@@ -62,6 +62,14 @@ Nodes
 - [whiteboarding](/whiteboarding/leetcode/1029-two-city-scheduling.png)
 - Solution using a while loop with two pointers to go through a sorted list of cost difference between the cities
 
+1276 - Number of Burgers With No Waste Of Ingredients
+
+- [problem](https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients)
+- [solution](/leetcode/1276-number-of-burgers-with-no-waste-of-ingredients.js)
+- [repl](https://repl.it/@xiaoyunyang/1276-number-of-burgers-with-no-waste-of-ingredients)
+- [whiteboarding](/whiteboarding/leetcode/1276-number-of-burgers-with-no-waste-of-ingredients.png)
+- Solution by solving a system of equations
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
