@@ -46,6 +46,14 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/leetcode-candy)
 - O(N) superposition. Evaluate left2right and right2left, then combine solution via max of the two.
 
+820 - Short Encoding of Words
+
+- [problem](https://leetcode.com/problems/short-encoding-of-words)
+- [solution](/leetcode/820-short-encoding-of-words)
+- [repl](https://repl.it/@xiaoyunyang/leetcode-short-encoding-of-words)
+- [whiteboarding](/whiteboarding/leetcode/820-short-encoding-of-words.png.png)
+- Solution using trie of the reversed strings
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
