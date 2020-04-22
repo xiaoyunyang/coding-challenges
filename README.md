@@ -39,6 +39,14 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/leetcode-multiply-strings)
 - nested for-loops, O(N^2) solution
 
+129 - Sum Root to Leaf Numbers
+
+- [problem](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
+- [solution](/leetcode/129-sum-root-to-leaf-numbers.js)
+- [repl](https://repl.it/@xiaoyunyang/129-sum-root-to-leaf-numbers)
+- O(N) superposition. Evaluate left2right and right2left, then combine solution via max of the two.
+
+
 135 - Candy
 
 - [problem](https://leetcode.com/problems/candy/)
