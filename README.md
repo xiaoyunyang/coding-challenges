@@ -44,8 +44,7 @@ Nodes
 - [problem](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
 - [solution](/leetcode/129-sum-root-to-leaf-numbers.js)
 - [repl](https://repl.it/@xiaoyunyang/129-sum-root-to-leaf-numbers)
-- O(N) superposition. Evaluate left2right and right2left, then combine solution via max of the two.
-
+- O(Log N) solution via tree traversal
 
 135 - Candy
 
