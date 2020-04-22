@@ -46,6 +46,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/leetcode-candy)
 - O(N) superposition. Evaluate left2right and right2left, then combine solution via max of the two.
 
+721 - Accounts Merge
+
+- [problem](https://leetcode.com/problems/accounts-merge/)
+- [solution](/leetcode/721-accounts-merge.js)
+- [repl](https://repl.it/@xiaoyunyang/721-accounts-merge)
+- Solution using graph search. emails are the vertices. create bi-directional edges from first email to every other email of each account
+
 820 - Short Encoding of Words
 
 - [problem](https://leetcode.com/problems/short-encoding-of-words)
