@@ -84,6 +84,13 @@ Nodes
 - [whiteboarding](/whiteboarding/leetcode/1276-number-of-burgers-with-no-waste-of-ingredients.png)
 - Solution by solving a system of equations
 
+1386 - Cinema Seat Allocation
+
+- [problem](https://leetcode.com/problems/cinema-seat-allocation/)
+- [solution](/leetcode/1386-cinema-seat-allocation.js)
+- [repl](hhttps://repl.it/@xiaoyunyang/1386-cinema-seat-allocation)
+- O(N) solution using bit masks, where N is the number of reserved seats.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
