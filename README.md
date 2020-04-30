@@ -53,6 +53,12 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/leetcode-candy)
 - O(N) superposition. Evaluate left2right and right2left, then combine solution via max of the two.
 
+226 - Invert Binary Tree
+
+- [problem](https://leetcode.com/problems/invert-binary-tree/)
+- [solution](/leetcode/226-invert-binary-tree.js)
+- O(log N) Solution
+
 721 - Accounts Merge
 
 - [problem](https://leetcode.com/problems/accounts-merge/)
