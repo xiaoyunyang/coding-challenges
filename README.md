@@ -97,6 +97,22 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/1386-cinema-seat-allocation)
 - O(N) solution using bit masks, where N is the number of reserved seats.
 
+### Leetcode May 2020 Challenges
+
+2020-05-01 - First Bad Version
+
+- [problem](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3316/)
+- [solution](/leetcode/2020-05-01-first-bad-version.js)
+- [repl](https://repl.it/@xiaoyunyang/first-bad-version)
+- O(logN) solution using binary search.
+
+2020-05-02 - Jewels And Stones
+
+- [problem](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3317/)
+- [solution](/leetcode/2020-05-02-jewels-and-stones.js)
+- [repl](https://repl.it/@xiaoyunyang/jewels-and-stones)
+- O(N) solution using a Set.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
