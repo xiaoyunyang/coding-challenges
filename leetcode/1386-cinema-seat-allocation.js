@@ -4,12 +4,11 @@
  * @return {number}
  */
 var maxNumberOfFamilies = function(n, reservedSeats) {
-  const seatToBitsMap = [0x80, 0x40, 0x20, 0x10, 0x08, 0x04, 0x02, 0x01]
   const newRow = 0x00
   const rowToBits = {}
   for(let r of reservedSeats) {
     if(r[1]>1 && r[1]<10) {
-      rowToBits[r[0]] = (rowToBits[r[0]] || newRow) | seatToBitsMap[r[1]-2]
+      rowToBits[r[0]] = (rowToBits[r[0]] || newRow) | (1 << (9-r[1]))
     }
   }
 

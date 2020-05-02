@@ -57,7 +57,7 @@ Nodes
 
 - [problem](https://leetcode.com/problems/invert-binary-tree/)
 - [solution](/leetcode/226-invert-binary-tree.js)
-- O(log N) Solution
+- O(log N) Solution. 2 recursive calls per level for logN levels.
 
 721 - Accounts Merge
 
@@ -94,7 +94,7 @@ Nodes
 
 - [problem](https://leetcode.com/problems/cinema-seat-allocation/)
 - [solution](/leetcode/1386-cinema-seat-allocation.js)
-- [repl](hhttps://repl.it/@xiaoyunyang/1386-cinema-seat-allocation)
+- [repl](https://repl.it/@xiaoyunyang/1386-cinema-seat-allocation)
 - O(N) solution using bit masks, where N is the number of reserved seats.
 
 ## Cracking the Coding Interview
