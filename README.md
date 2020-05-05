@@ -113,6 +113,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/jewels-and-stones)
 - O(N) solution using a Set.
 
+2020-05-03 - Ransom Note
+
+- [problem](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3318/)
+- [solution](/leetcode/2020-05-03-ransom-note.js)
+- [repl](https://repl.it/@xiaoyunyang/ransom-note)
+- O(N) solution by repeated updates to array. Faster than frequency table.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
