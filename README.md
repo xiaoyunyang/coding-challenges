@@ -125,7 +125,14 @@ Nodes
 - [problem](https://leetcode.com/problems/number-complement/)
 - [solution](/leetcode/476-number-complement.js)
 - [repl](https://repl.it/@xiaoyunyang/476-number-complement)
-- Solution using while loop and xor to toggle bits.
+- O(k) Solution using while loop and xor to toggle bits. k is the most significant bit that's a one.
+
+387 - First Unique Character
+
+- [problem](https://leetcode.com/problems/first-unique-character-in-a-string/)
+- [solution](/leetcode/387-first-unique-character-in-a-string.js)
+- [repl](https://repl.it/@xiaoyunyang/387-first-unique-character)
+- O(N) solution using JS built-in array methods `indexOf` and `lastIndexOf` to find if char is unique. Use Set to store the duplicates.
 
 ## Cracking the Coding Interview
 
