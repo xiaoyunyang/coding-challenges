@@ -99,32 +99,32 @@ Nodes
 
 ### Leetcode May 2020 Challenges
 
-2020-05-01 - First Bad Version
+278 - First Bad Version
 
-- [problem](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3316/)
-- [solution](/leetcode/2020-05-01-first-bad-version.js)
-- [repl](https://repl.it/@xiaoyunyang/first-bad-version)
+- [problem](https://leetcode.com/problems/first-bad-version/)
+- [solution](/leetcode/278-first-bad-version.js)
+- [repl](https://repl.it/@xiaoyunyang/278-first-bad-version)
 - O(logN) solution using binary search.
 
-2020-05-02 - Jewels And Stones
+771 - Jewels And Stones
 
-- [problem](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3317/)
-- [solution](/leetcode/2020-05-02-jewels-and-stones.js)
-- [repl](https://repl.it/@xiaoyunyang/jewels-and-stones)
+- [problem](https://leetcode.com/problems/jewels-and-stones/)
+- [solution](/leetcode/771-jewels-and-stones.js)
+- [repl](https://repl.it/@xiaoyunyang/771-jewels-and-stones)
 - O(N) solution using a Set.
 
-2020-05-03 - Ransom Note
+383 - Ransom Note
 
-- [problem](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3318/)
-- [solution](/leetcode/2020-05-03-ransom-note.js)
-- [repl](https://repl.it/@xiaoyunyang/ransom-note)
+- [problem](https://leetcode.com/problems/ransom-note/)
+- [solution](/leetcode/383-ransom-note.js)
+- [repl](https://repl.it/@xiaoyunyang/383-ransom-note)
 - O(N) solution by repeated updates to array. Faster than frequency table.
 
-2020-05-04 - Number Complement
+476 - Number Complement
 
-- [problem](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3319/)
-- [solution](/leetcode/2020-05-04-number-complement.js)
-- [repl](https://repl.it/@xiaoyunyang/number-complement)
+- [problem](https://leetcode.com/problems/number-complement/)
+- [solution](/leetcode/476-number-complement.js)
+- [repl](https://repl.it/@xiaoyunyang/476-number-complement)
 - Solution using while loop and xor to toggle bits.
 
 ## Cracking the Coding Interview
