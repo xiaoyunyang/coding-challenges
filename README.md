@@ -134,6 +134,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/387-first-unique-character)
 - O(N) solution using JS built-in array methods `indexOf` and `lastIndexOf` to find if char is unique. Use Set to store the duplicates.
 
+169 - Majority Element
+
+- [problem](https://leetcode.com/problems/majority-element)
+- [solution](/leetcode/169-majority-element.js)
+- [repl](https://repl.it/@xiaoyunyang/169-majority-element)
+- O(N) and constant space solution using Boyer-Moore majority vote algorithm.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
