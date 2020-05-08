@@ -148,6 +148,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/993-cousins-in-binary-tree)
 - O(logN) solution via 2 tree traversals.
 
+1232 - Check If It Is a Straight Line
+
+- [problem](https://leetcode.com/problems/check-if-it-is-a-straight-line/)
+- [solution](/leetcode/1232-check-if-it-is-a-straight-line.js)
+- [repl](https://repl.it/@xiaoyunyang/993-cousins-in-binary-tree)
+- O(N) solution via comparison with a reference slope.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
