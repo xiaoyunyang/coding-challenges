@@ -141,6 +141,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/169-majority-element)
 - O(N) and constant space solution using Boyer-Moore majority vote algorithm.
 
+993 - Cousins in Binary Tree
+
+- [problem](https://leetcode.com/problems/cousins-in-binary-tree/)
+- [solution](/leetcode/993-cousins-in-binary-tree.js)
+- [repl](https://repl.it/@xiaoyunyang/993-cousins-in-binary-tree)
+- O(logN) solution via 2 tree traversals.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
