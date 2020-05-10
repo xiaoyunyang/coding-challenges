@@ -162,6 +162,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/367-valid-perfect-square)
 - O(log N) solution using binary search. Conditional guard return true if input is 0 and 1.
 
+997 - Find the Town Judge
+
+- [problem](https://leetcode.com/problems/find-the-town-judge/)
+- [solution](/leetcode/997-find-the-town-judge.js)
+- [repl](https://repl.it/@xiaoyunyang/997-find-the-town-judge)
+- O(N) solution using an easier version of union-find disjoint set
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
