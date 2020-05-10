@@ -155,6 +155,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/993-cousins-in-binary-tree)
 - O(N) solution via comparison with a reference slope.
 
+367 - Valid Perfect Square
+
+- [problem](https://leetcode.com/problems/valid-perfect-square/)
+- [solution](/leetcode/367-valid-perfect-square.js)
+- [repl](https://repl.it/@xiaoyunyang/367-valid-perfect-square)
+- O(log N) solution using binary search. Conditional guard return true if input is 0 and 1.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
