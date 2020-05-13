@@ -176,6 +176,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/733-flood-fill)
 - O(N+M) Solution using BFS and DFS
 
+540 - Single Element in a Sorted Array
+
+- [problem](https://leetcode.com/problems/single-element-in-a-sorted-array/)
+- [solution](/leetcode/540-single-element-in-a-sorted-array.js)
+- [repl](https://repl.it/@xiaoyunyang/540-single-element-in-a-sorted-array)
+- O(logN) solution using binary search
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
