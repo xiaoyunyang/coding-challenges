@@ -50,8 +50,8 @@ Nodes
 
 - [problem](https://leetcode.com/problems/candy/)
 - [solution](/leetcode/135-candy.js)
-- [repl](https://repl.it/@xiaoyunyang/leetcode-candy)
-- O(N) superposition. Evaluate left2right and right2left, then combine solution via max of the two.
+- [repl](https://repl.it/@xiaoyunyang/135-candy)
+- O(N) Solution using Greedy algorithm. Evaluate left2right and right2left, then combine solution via max of the two.
 
 226 - Invert Binary Tree
 
@@ -95,7 +95,7 @@ Nodes
 - [problem](https://leetcode.com/problems/cinema-seat-allocation/)
 - [solution](/leetcode/1386-cinema-seat-allocation.js)
 - [repl](https://repl.it/@xiaoyunyang/1386-cinema-seat-allocation)
-- O(N) solution using bit masks, where N is the number of reserved seats.
+- O(N) solution using bitmask, where N is the number of reserved seats.
 
 ### Leetcode May 2020 Challenges
 
@@ -183,6 +183,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/540-single-element-in-a-sorted-array)
 - O(logN) solution using binary search
 
+402 - Remove K-Digit
+
+- [problem](https://leetcode.com/problems/remove-k-digits/)
+- [solution](/leetcode/402-remove-k-digits.js)
+- [repl](https://repl.it/@xiaoyunyang/402-remove-k-digits)
+- O(N * K) solution using greedy algorithm.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
@@ -224,7 +231,7 @@ Nodes
 
 1.6 - String Compression
 
-- Problem: Given a string with a number of characters in a row, compress the string by replacing the repeated characters with the character, followed by the number of occurences. For example, aabcccccaaa becomes a2b1c5a3. If the compressed string would not be smaller than the original string, the function shall return the original string.
+- Problem: Given a string with a number of characters in a row, compress the string by replacing the repeated characters with the character, followed by the number of occurrences. For example, aabcccccaaa becomes a2b1c5a3. If the compressed string would not be smaller than the original string, the function shall return the original string.
 - [solution](/CTCI/1-6-string-compression.js)
 - [repl](https://repl.it/@xiaoyunyang/CTCI-1-6-string-compression)
 - O(N) solution. Make sure to check edge cases. There is an optimization we could do to break from the loop operation when a condition is met.
