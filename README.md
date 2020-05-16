@@ -74,6 +74,13 @@ Nodes
 - [whiteboarding](/whiteboarding/leetcode/820-short-encoding-of-words.png)
 - Solution using trie of the reversed strings
 
+945 - Minimum Increments to Make Array Unique
+
+- [problem](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)
+- [solution](/leetcode/945-minimum-increments-to-make-array-unique.js)
+- [repl](https://repl.it/@xiaoyunyang/945-minimum-increments-to-make-array-unique)
+- O(N logN) solution using greedy algorithm.
+
 1029 - Two City Costs
 
 - [problem](https://leetcode.com/problems/two-city-scheduling)

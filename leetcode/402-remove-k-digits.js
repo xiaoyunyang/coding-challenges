@@ -10,7 +10,7 @@ var removeKdigits = function(num, k) {
   let left = k
   while(i<num.length) {
     curr = Number(num[i])
-    if(left && res[res.length-1]>curr) {
+    if(left>0 && res[res.length-1]>curr) {
       res.pop()
       left--
     } else {
@@ -28,5 +28,5 @@ var removeKdigits = function(num, k) {
   while(res[0]===0 && res.length>1) {
     res.shift(1)
   }
-  return res.join('')
+  return res.join("")
 }
