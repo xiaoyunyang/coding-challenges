@@ -204,6 +204,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/402-remove-k-digits)
 - O(N * K) solution using greedy algorithm.
 
+918 - Maximum Sum Circular Subarray
+
+- [problem](https://leetcode.com/problems/maximum-sum-circular-subarray/)
+- [solution](/leetcode/918-maximum-sum-circular-subarray.js)
+- [repl](https://repl.it/@xiaoyunyang/918-maximum-sum-circular-subarray)
+- O(N) solution using Kadane's algorithm to find Min subarray and max subarray.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
