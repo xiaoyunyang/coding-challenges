@@ -6,19 +6,18 @@
 var removeKdigits = function(num, k) {
   if(num.length===k) return "0"
   if(k===0) return num
-  let res= [], i = 0
+  let res = []
   let left = k
-  while(i<num.length) {
-    curr = Number(num[i])
-    if(left>0 && res[res.length-1]>curr) {
+
+  // get rid of everything larger than curr from tail
+  for(let i=0; i<num.length; i++) {
+    const curr = Number(num[i]) 
+    while(left>0 && res.length>0 && res[res.length-1]>curr) {
       res.pop()
       left--
-    } else {
-      res.push(curr)
-      i++
     }
+    res.push(curr)
   }
-
   // trim the tail
   while(left>0) {
     res.pop()
@@ -28,5 +27,5 @@ var removeKdigits = function(num, k) {
   while(res[0]===0 && res.length>1) {
     res.shift(1)
   }
-  return res.join("")
+  return res.reduce((acc, curr) => acc+curr, "")  
 }
