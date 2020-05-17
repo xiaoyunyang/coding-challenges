@@ -204,6 +204,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/402-remove-k-digits)
 - O(N * K) solution using greedy algorithm.
 
+208 - Implement Trie (Prefix Tree)
+
+- [problem](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [solution](/leetcode/208-implement-trie-prefix-tree.js)
+- [repl](https://repl.it/@xiaoyunyang/208-implement-trie-prefix-tree)
+- Each node is an object with key being the letter and value being a node or `end` boolean, marking where that this is the end of a word.
+
 918 - Maximum Sum Circular Subarray
 
 - [problem](https://leetcode.com/problems/maximum-sum-circular-subarray/)
