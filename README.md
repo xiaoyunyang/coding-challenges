@@ -218,6 +218,14 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/918-maximum-sum-circular-subarray)
 - O(N) solution using Kadane's algorithm to find Min subarray and max subarray.
 
+
+328 - Odd Even Linked List
+
+- [problem](https://leetcode.com/problems/odd-even-linked-list/)
+- [solution](/leetcode/328-odd-even-linked-list.js)
+- [repl](https://repl.it/@xiaoyunyang/328-odd-even-linked-list)
+- O(N) solution using by maintaining a pointer to the end of the odd list and the beginning of the even list.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
