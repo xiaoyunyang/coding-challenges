@@ -39,6 +39,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/leetcode-multiply-strings)
 - nested for-loops, O(N^2) solution
 
+53 - Maximum Subarray
+
+- [problem](https://leetcode.com/problems/maximum-subarray/)
+- [solution](/leetcode/53-maximum-subarray.js)
+- [repl](https://repl.it/@xiaoyunyang/53-maximum-subarray)
+- O(N) solution using Kadane's Algorithm (DP)
+
 129 - Sum Root to Leaf Numbers
 
 - [problem](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
