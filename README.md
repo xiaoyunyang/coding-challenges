@@ -231,7 +231,14 @@ Nodes
 - [problem](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 - [solution](/leetcode/438-find-all-anagrams-in-a-string.js)
 - [repl](https://repl.it/@xiaoyunyang/438-find-all-anagrams-in-a-string)
-- O(N) solution using the sliding window technique to update a 26-length array to keep track of the character distribution.
+- O(N) solution using the sliding window technique to update a 26-length array to keep track of the character frequency.
+
+567 - Permutation In String
+
+- [problem](https://leetcode.com/problems/permutation-in-string/)
+- [solution](/leetcode/567-permutation-in-string.js)
+- [repl](https://repl.it/@xiaoyunyang/567-permutation-in-string)
+- O(N) solution using the sliding window technique to update a 26-length array to keep track of the character frequency.
 
 ## Cracking the Coding Interview
 
