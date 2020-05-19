@@ -240,6 +240,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/567-permutation-in-string)
 - O(N) solution using the sliding window technique to update a 26-length array to keep track of the character frequency.
 
+901 - Online Stock Span
+
+- [problem](https://leetcode.com/problems/online-stock-span/)
+- [solution](/leetcode/901-online-stock-span.js)
+- [repl](https://repl.it/@xiaoyunyang/901-online-stock-span)
+- O(N) solution using two stacks to keep track of the prices and the previous results of next. The top of the prices stack is always the minimum price seen so far.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
