@@ -1,6 +1,6 @@
 class StockSpanner {
   constructor() {
-    this.weights = [] // stack
+    this.results = [] // stack
     this.prices = [] //stack
   }
   /** 
@@ -8,14 +8,14 @@ class StockSpanner {
    * @return {number}
    */
   next(price) {
-    let weight = 1
+    let result = 1
     if(!this.minSoFar) this.minSoFar = price
-    while(this.weights.length > 0 && this.prices[this.prices.length-1] <= price) {
-      weight+=this.weights.pop()
+    while(this.results.length > 0 && this.prices[this.prices.length-1] <= price) {
+      result+=this.results.pop()
       this.prices.pop()
     }
-    this.weights.push(weight)
+    this.results.push(result)
     this.prices.push(price)
-    return weight
+    return result
   }
 }
