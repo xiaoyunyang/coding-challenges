@@ -254,6 +254,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/230-kth-smallest-element-in-a-bst)
 - O(logN) solution using In-order Traversal.
 
+1277 - Count Square Submatrices with All Ones
+
+- [problem](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
+- [solution](/leetcode/1277-count-square-submatrices-with-all-ones.js)
+- [repl](https://repl.it/@xiaoyunyang/1277-count-square-submatrices-with-all-ones)
+- O(N * M) solution using dynamic programming. Create a sum matrix to keep track of number of ones seen in a row from top, left, and left diagonal
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
