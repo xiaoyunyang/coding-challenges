@@ -247,6 +247,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/901-online-stock-span)
 - O(N) solution using two stacks to keep track of the prices and the previous results of next. The top of the prices stack is always the minimum price seen so far.
 
+94 - Kth Smallest Element in a BST
+
+- [problem](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+- [solution](/leetcode/230-kth-smallest-element-in-a-bst.js)
+- [repl](https://repl.it/@xiaoyunyang/230-kth-smallest-element-in-a-bst)
+- O(logN) solution using In-order Traversal.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
