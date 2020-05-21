@@ -5,10 +5,9 @@
  var countSquares = function(matrix) {
   const numRows = matrix.length
   const rowLen = matrix[0].length
-  const row = Array(rowLen).fill(null)
   const sumMatrix = Array(numRows)
   for(let i=0; i<sumMatrix.length; i++) {
-    sumMatrix[i] = row.slice()
+    sumMatrix[i] = Array(rowLen).fill(null)
   }
 
   const getMinNeighbors = (i,j) => {
@@ -21,8 +20,9 @@
   for(let i=0; i<numRows; i++) {
     for(let j=0; j<rowLen; j++) {
       const item = matrix[i][j]
+      if(item===0) continue
       const min = getMinNeighbors(i,j)
-      sumMatrix[i][j] = (item===1) ? item+min : item
+      sumMatrix[i][j] = item+min
       res += sumMatrix[i][j]
     }
   }
