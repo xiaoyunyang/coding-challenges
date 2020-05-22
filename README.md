@@ -261,6 +261,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/1277-count-square-submatrices-with-all-ones)
 - O(N * M) solution using dynamic programming. Create a sum matrix to keep track of number of ones seen in a row from top, left, and left diagonal
 
+451 - Sort Characters By Frequency
+
+- [problem](https://leetcode.com/problems/sort-characters-by-frequency/)
+- [solution](/leetcode/451-sort-characters-by-frequency.js)
+- [repl](https://repl.it/@xiaoyunyang/451-sort-characters-by-frequency)
+- O(N) solution using hash table
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
