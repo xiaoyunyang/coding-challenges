@@ -268,6 +268,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/451-sort-characters-by-frequency)
 - O(N) solution using hash table
 
+986 - Interval List Intersections
+
+- [problem](https://leetcode.com/problems/interval-list-intersections/)
+- [solution](/leetcode/986-interval-list-intersections.js)
+- [repl](https://repl.it/@xiaoyunyang/986-interval-list-intersections)
+- O(N) solution one while loop and two pointers
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
