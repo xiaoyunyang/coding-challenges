@@ -11,19 +11,17 @@
  * @return {TreeNode}
  */
  var bstFromPreorder = function(preorder) {
-  if(preorder.length===0) return null
   let i = 0
   function build(min, max) {
-    if(i>=preorder.length) return null
+    if(i >= preorder.length) return null
     const val = preorder[i]
     let root = null
-    if(val>min && val<max) {
-      root = new TreeNode(val, null, null)
-      i++
-      root.left = build(min, val)
-      root.right = build(val, max)
-      return root
-    }
+    if(val<=min || val>=max) return null
+    
+    root = new TreeNode(val, null, null)
+    i++
+    root.left = build(min, val)
+    root.right = build(val, max)
     return root
   }
   return build(-Infinity, Infinity)
