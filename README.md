@@ -275,6 +275,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/986-interval-list-intersections)
 - O(N) solution one while loop and two pointers
 
+1008 - Construct Binary Search Tree from Preorder Traversal
+
+- [problem](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
+- [solution](/leetcode/1008-construct-binary-search-tree-from-preorder-traversal.js)
+- [repl](https://repl.it/@xiaoyunyang/1008-construct-binary-search-tree-from-preorder-traversal)
+- O(N) solution by recursively building the sub-tree if the sub-tree falls within a range.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
