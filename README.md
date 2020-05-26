@@ -282,6 +282,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/1008-construct-binary-search-tree-from-preorder-traversal)
 - O(N) solution by recursively building the sub-tree if the sub-tree falls within a range.
 
+1035 - Uncrossed Lines
+
+- [problem](https://leetcode.com/problems/uncrossed-lines/)
+- [solution](/leetcode/1035-uncrossed-lines.js)
+- [repl](https://repl.it/@xiaoyunyang/1035-uncrossed-lines)
+- O(A * B) solution using dynamic programming. Create a sub-problem solution matrix to keep track of the max uncrossed lines for the sub-arrays. The sub-problem is whether to include the current two items from A and B in the solution or not.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
