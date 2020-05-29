@@ -11,6 +11,8 @@
 - Binary Search Tree
   - [BST Node](/datastructure/Node/BSTNode.js)
   - [BST Utils](/datastructure/BSTUtils.js)
+- Trie
+  - [Prefix Trie](/datastructure/TriePrefix.js)
 
 Nodes
 
