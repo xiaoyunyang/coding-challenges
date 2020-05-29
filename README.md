@@ -303,6 +303,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/886-possible-bipartition)
 - O(N) solution using BFS and node coloring technique
 
+338 - Counting Bits
+
+- [problem](https://leetcode.com/problems/counting-bits/)
+- [solution](/leetcode/338-counting-bits.js)
+- [repl](https://repl.it/@xiaoyunyang/338-counting-bits)
+- O(N) solution using dynamic programming
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
