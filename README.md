@@ -289,12 +289,19 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/1035-uncrossed-lines)
 - O(A * B) solution using dynamic programming. Create a sub-problem solution matrix to keep track of the max uncrossed lines for the sub-arrays. The sub-problem is whether to include the current two items from A and B in the solution or not.
 
-1035 - Contiguous Array
+525 - Contiguous Array
 
 - [problem](https://leetcode.com/problems/contiguous-array/)
 - [solution](/leetcode/525-contiguous-array.js)
 - [repl](https://repl.it/@xiaoyunyang/525-contiguous-array)
 - O(N) dynamic programming solution using a variation of Kadane's algorithm and a hash table.
+
+886 - Possible Bipartition
+
+- [problem](https://leetcode.com/problems/possible-bipartition/)
+- [solution](/leetcode/886-possible-bipartition.js)
+- [repl](https://repl.it/@xiaoyunyang/886-possible-bipartition)
+- O(N) solution using BFS and node coloring technique
 
 ## Cracking the Coding Interview
 
