@@ -8,6 +8,9 @@
 - [Queue](/datastructure/Queue.js)
 - [MinHeap](/datastructure/MinHeap.js)
 - [Union Find](/datastructure/UnionFind.js)
+- Binary Search Tree
+  - [BST Node](/datastructure/Node/BSTNode.js)
+  - [BST Utils](/datastructure/BSTUtils.js)
 
 Nodes
 
