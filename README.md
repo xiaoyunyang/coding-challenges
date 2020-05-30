@@ -24,6 +24,13 @@ Nodes
 
 ## LeetCode
 
+3 - Longest Substring Without Repeating Characters
+
+- [problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- [solution](/leetcode/3-longest-substring-without-repeating-characters.js)
+- [repl](https://repl.it/@xiaoyunyang/3-longest-substring-without-repeating-characters)
+- O(N) solution using dynamic programming (kadane's algorithm). Keep track of the last time you saw the character in a hash table.
+
 41 - First Missing Postiive
 
 - [problem](https://leetcode.com/problems/first-missing-positive)
