@@ -315,6 +315,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/338-counting-bits)
 - O(N) solution using dynamic programming
 
+207 - Course Schedule
+
+- [problem](https://leetcode.com/problems/course-schedule/)
+- [solution](/leetcode/207-course-schedule.js)
+- [repl](https://repl.it/@xiaoyunyang/207-course-schedule)
+- O(N) solution using DFS cycle detection
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
