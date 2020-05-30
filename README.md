@@ -585,3 +585,18 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
 - [solution](/misc/sort2DArr.js)
 - [repl](https://repl.it/@xiaoyunyang/knuth-shuffle-and-sort)
 - Note: Write custom `compare` function to pass into `Array.sort`.
+
+### Array
+
+Least Frequent Array Elements
+
+- Problem: Given an array of integers, return an array containing the integer that occurs the least number of times. If there are multiple answers, return all possibilities within the resulting array sorted in ascending order. When no solution can be deduced, return an empty array.
+
+  ```
+  Example
+  Input: [10, 941, 13, 13, 13, 941]
+  Output: [10]
+  ```
+  
+- [solution](/misc/least-frequent-array-element.js)
+- [repl](https://repl.it/@xiaoyunyang/most-infrequent-array-element)
