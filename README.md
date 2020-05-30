@@ -79,6 +79,13 @@ Nodes
 - [solution](/leetcode/226-invert-binary-tree.js)
 - O(log N) Solution. 2 recursive calls per level for logN levels.
 
+347 - Top K Frequent Elements
+
+- [problem](https://leetcode.com/problems/top-k-frequent-elements/)
+- [solution](/leetcode/347-top-k-frequent-elements.js)
+- [repl](https://repl.it/@xiaoyunyang/347-top-k-frequent-elements)
+- O(N log N) Solution by creating a frequency table.
+
 721 - Accounts Merge
 
 - [problem](https://leetcode.com/problems/accounts-merge/)
