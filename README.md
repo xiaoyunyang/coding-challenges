@@ -322,6 +322,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/207-course-schedule)
 - O(N) solution using DFS cycle detection
 
+973 - K Closest Points to Origin
+
+- [problem](https://leetcode.com/problems/k-closest-points-to-origin/)
+- [solution](/leetcode/973-k-closest-points-to-origin.js)
+- [repl](https://repl.it/@xiaoyunyang/973-k-closest-points-to-origin)
+- O(N) solution by sorting the input array
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
