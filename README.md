@@ -343,6 +343,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/973-k-closest-points-to-origin)
 - O(N) solution by sorting the input array
 
+973 - K Closest Points to Origin
+
+- [problem](https://leetcode.com/problems/edit-distance/)
+- [solution](/leetcode/72-edit-distance.js)
+- [repl](https://repl.it/@xiaoyunyang/72-edit-distance)
+- O(N * M) solution using dynamic programming
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
@@ -597,6 +604,6 @@ Least Frequent Array Elements
   Input: [10, 941, 13, 13, 13, 941]
   Output: [10]
   ```
-  
+
 - [solution](/misc/least-frequent-array-element.js)
 - [repl](https://repl.it/@xiaoyunyang/most-infrequent-array-element)
