@@ -131,6 +131,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/1386-cinema-seat-allocation)
 - O(N) solution using bitmask, where N is the number of reserved seats.
 
+1465 - Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts
+
+- [problem](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)
+- [solution](/leetcode/1465-maximum-area-a-piece-of-cake.js)
+- [repl](https://repl.it/@xiaoyunyang/1465-maximum-area-a-piece-of-cake)
+- O(N+M) solution by keeping track of the maximum gaps made by the horizontal and vertical cuts. Then multiple these max gaps.
+
 ### Leetcode May 2020 Challenges
 
 278 - First Bad Version
