@@ -131,6 +131,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/1386-cinema-seat-allocation)
 - O(N) solution using bitmask, where N is the number of reserved seats.
 
+1464 - Maximum Product of Two Elements in an Array
+
+- [problem](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)
+- [solution](/leetcode/1464-maximum-product-of-two-elements-in-an-array.js)
+- [repl](https://repl.it/@xiaoyunyang/1464-maximum-product-of-two-elements-in-an-array)
+- O(NlogN) solution by sorting the array.
+
 1465 - Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts
 
 - [problem](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)
