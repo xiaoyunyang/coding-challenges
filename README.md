@@ -372,6 +372,11 @@ Nodes
 - [whiteboarding](/whiteboarding/leetcode/1029-two-city-scheduling.png)
 - Solution using a while loop with two pointers to go through a sorted list of cost difference between the cities
 
+344 - Reverse String
+- [problem](https://leetcode.com/problems/reverse-string/)
+- [solution](/leetcode/344-reverse-string.js)
+- O(N) solution using two pointers and a while loop to swap front and back elements of the array.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
