@@ -131,6 +131,15 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/1465-maximum-area-a-piece-of-cake)
 - O(N+M) solution by keeping track of the maximum gaps made by the horizontal and vertical cuts. Then multiple these max gaps.
 
+### Leetcode April 2020 Challenges
+
+136 - Single Number
+
+- [problem](https://leetcode.com/problems/single-number/)
+- [solution](/leetcode/136-single-number.js)
+- [repl](https://repl.it/@xiaoyunyang/136-single-number)
+- O(N) solution and O(N) space using a set. O(N) solution and O(1) space using XOR and reduce.
+
 ### Leetcode May 2020 Challenges
 
 278 - First Bad Version
@@ -633,4 +642,4 @@ Least Frequent Array Elements
   ```
 
 - [solution](/misc/least-frequent-array-element.js)
-- [repl](https://repl.it/@xiaoyunyang/most-infrequent-array-element)
+- [repl](https://repl.it/@xiaoyunyang/least-frequent-array-element)
