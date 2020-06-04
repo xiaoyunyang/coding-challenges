@@ -73,12 +73,6 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/135-candy)
 - O(N) Solution using Greedy algorithm. Evaluate left2right and right2left, then combine solution via max of the two.
 
-226 - Invert Binary Tree
-
-- [problem](https://leetcode.com/problems/invert-binary-tree/)
-- [solution](/leetcode/226-invert-binary-tree.js)
-- O(log N) Solution. 2 recursive calls per level for logN levels.
-
 347 - Top K Frequent Elements
 
 - [problem](https://leetcode.com/problems/top-k-frequent-elements/)
@@ -107,14 +101,6 @@ Nodes
 - [solution](/leetcode/945-minimum-increments-to-make-array-unique.js)
 - [repl](https://repl.it/@xiaoyunyang/945-minimum-increments-to-make-array-unique)
 - O(N logN) solution using greedy algorithm.
-
-1029 - Two City Costs
-
-- [problem](https://leetcode.com/problems/two-city-scheduling)
-- [solution](/leetcode/1029-two-city-scheduling.js)
-- [repl](https://repl.it/@xiaoyunyang/leetcode-1029-two-city-scheduling)
-- [whiteboarding](/whiteboarding/leetcode/1029-two-city-scheduling.png)
-- Solution using a while loop with two pointers to go through a sorted list of cost difference between the cities
 
 1276 - Number of Burgers With No Waste Of Ingredients
 
@@ -363,6 +349,28 @@ Nodes
 - [solution](/leetcode/72-edit-distance.js)
 - [repl](https://repl.it/@xiaoyunyang/72-edit-distance)
 - O(N * M) solution using dynamic programming
+
+### Leetcode June 2020 Challenge
+
+226 - Invert Binary Tree
+
+- [problem](https://leetcode.com/problems/invert-binary-tree/)
+- [solution](/leetcode/226-invert-binary-tree.js)
+- O(log N) Solution. 2 recursive calls per level for logN levels.
+
+237 - Delete Node in a Linked List
+
+- [problem](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+- [solution](/leetcode/237-delete-node-in-a-linked-list.js)
+- O(1) Solution
+
+1029 - Two City Costs
+
+- [problem](https://leetcode.com/problems/two-city-scheduling)
+- [solution](/leetcode/1029-two-city-scheduling.js)
+- [repl](https://repl.it/@xiaoyunyang/leetcode-1029-two-city-scheduling)
+- [whiteboarding](/whiteboarding/leetcode/1029-two-city-scheduling.png)
+- Solution using a while loop with two pointers to go through a sorted list of cost difference between the cities
 
 ## Cracking the Coding Interview
 
