@@ -382,9 +382,17 @@ Nodes
 - Solution using a while loop with two pointers to go through a sorted list of cost difference between the cities
 
 344 - Reverse String
+
 - [problem](https://leetcode.com/problems/reverse-string/)
 - [solution](/leetcode/344-reverse-string.js)
 - O(N) solution using two pointers and a while loop to swap front and back elements of the array.
+
+528 - Random Pick with Weights
+
+- [problem](https://leetcode.com/problems/random-pick-with-weight/)
+- [solution](/leetcode/528-random-pick-with-weight.js)
+- [repl](https://repl.it/@xiaoyunyang/528-random-pick-with-weight)
+- O(logN) solution by binary search over cumulative probability densities.
 
 ## Cracking the Coding Interview
 
