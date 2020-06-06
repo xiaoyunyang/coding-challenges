@@ -394,6 +394,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/528-random-pick-with-weight)
 - O(logN) solution by binary search over cumulative probability densities.
 
+406 - Queue Reconstruction by Height
+
+- [problem](https://leetcode.com/problems/queue-reconstruction-by-height/)
+- [solution](/leetcode/406-queue-reconstruction-by-height.js)
+- [repl](https://repl.it/@xiaoyunyang/406-queue-reconstruction-by-height)
+- O(N logN) solution by pre-sorting the array by descending height and ascending K, then repeatedly update the result array.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
