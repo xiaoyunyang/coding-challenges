@@ -52,13 +52,6 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/leetcode-multiply-strings)
 - nested for-loops, O(N^2) solution
 
-53 - Maximum Subarray
-
-- [problem](https://leetcode.com/problems/maximum-subarray/)
-- [solution](/leetcode/53-maximum-subarray.js)
-- [repl](https://repl.it/@xiaoyunyang/53-maximum-subarray)
-- O(N) solution using Kadane's Algorithm (DP)
-
 129 - Sum Root to Leaf Numbers
 
 - [problem](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
@@ -139,6 +132,20 @@ Nodes
 - [solution](/leetcode/136-single-number.js)
 - [repl](https://repl.it/@xiaoyunyang/136-single-number)
 - O(N) solution and O(N) space using a set. O(N) solution and O(1) space using XOR and reduce.
+
+202 - Happy Number
+
+- [problem](https://leetcode.com/problems/happy-number/)
+- [solution](/leetcode/202-happy-number.js)
+- [repl](https://repl.it/@xiaoyunyang/202-happy-number)
+- O(N) solution and O(N) space using a set for cycle detection.
+
+53 - Maximum Subarray
+
+- [problem](https://leetcode.com/problems/maximum-subarray/)
+- [solution](/leetcode/53-maximum-subarray.js)
+- [repl](https://repl.it/@xiaoyunyang/53-maximum-subarray)
+- O(N) solution using Kadane's Algorithm (DP)
 
 ### Leetcode May 2020 Challenges
 
