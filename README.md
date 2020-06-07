@@ -130,6 +130,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/1465-maximum-area-a-piece-of-cake)
 - O(N+M) solution by keeping track of the maximum gaps made by the horizontal and vertical cuts. Then multiple these max gaps.
 
+1470 - Shuffle the Array
+
+- [problem](https://leetcode.com/problems/shuffle-the-array/)
+- [solution](/leetcode/1470-shuffle-the-array.js)
+- [repl](https://repl.it/@xiaoyunyang/1470-shuffle-the-array)
+- O(N) solution by merging two arrays.
+
 ### Leetcode April 2020 Challenge
 
 136 - Single Number
