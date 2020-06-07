@@ -147,6 +147,13 @@ Nodes
 - [repl](https://repl.it/@xiaoyunyang/53-maximum-subarray)
 - O(N) solution using Kadane's Algorithm (DP)
 
+283 - Move Zeroes
+
+- [problem](https://leetcode.com/problems/move-zeroes/)
+- [solution](/leetcode/283-move-zeroes.js)
+- [repl](https://repl.it/@xiaoyunyang/283-move-zeroes)
+- O(N) solution using a while-loop and two pointers
+
 ### Leetcode May 2020 Challenges
 
 278 - First Bad Version
