@@ -137,6 +137,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/1470-shuffle-the-array)
 - O(N) solution by merging two arrays.
 
+1471 - The k Strongest Values in an Array
+
+- [problem](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)
+- [solution](/leetcode/1471-the-k-strongest-values-in-an-array.js)
+- [repl](https://repl.it/@xiaoyunyang/1471-the-k-strongest-values-in-an-array)
+- O(N logN) solution by pre-sorting the array and using a while-loop and two pointers.
+
 ### Leetcode April 2020 Challenge
 
 136 - Single Number
