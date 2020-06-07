@@ -26,9 +26,9 @@ Nodes
 
 TOC
 
-- [April 2020 Challenge](#leetcode-april-2020-challenges)
-- [May 2020 Challenge](#leetcode-may-2020-challenges)
-- [June 2020 Challenge](#leetcode-june-2020-challenges)
+- [April 2020 30-day Challenge](#leetcode-april-2020-challenge)
+- [May 2020 30-day Challenge](#leetcode-may-2020-challenge)
+- [June 2020 30-day Challenge](#leetcode-june-2020-challenge)
 
 3 - Longest Substring Without Repeating Characters
 
@@ -130,7 +130,7 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/1465-maximum-area-a-piece-of-cake)
 - O(N+M) solution by keeping track of the maximum gaps made by the horizontal and vertical cuts. Then multiple these max gaps.
 
-### Leetcode April 2020 Challenges
+### Leetcode April 2020 Challenge
 
 136 - Single Number
 
@@ -160,7 +160,7 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/283-move-zeroes)
 - O(N) solution using a while-loop and two pointers
 
-### Leetcode May 2020 Challenges
+### Leetcode May 2020 Challenge
 
 278 - First Bad Version
 
