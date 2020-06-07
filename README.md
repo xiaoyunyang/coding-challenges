@@ -144,6 +144,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/1471-the-k-strongest-values-in-an-array)
 - O(N logN) solution by pre-sorting the array and using a while-loop and two pointers.
 
+1472 - Design Browser History
+
+- [problem](https://leetcode.com/problems/design-browser-history/)
+- [solution](/leetcode/1472-design-browser-history.js)
+- [repl](https://repl.it/@xiaoyunyang/1472-design-browser-history)
+- Solution using a stack and a pointer for supporting forward operations.
+
 ### Leetcode April 2020 Challenge
 
 136 - Single Number
