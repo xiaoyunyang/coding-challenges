@@ -181,6 +181,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/283-move-zeroes)
 - O(N) solution using a while-loop and two pointers
 
+122 - Best Time to Buy and Sell Stock II
+
+- [problem](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+- [solution](/leetcode/122-best-time-to-buy-and-sell-stocks-ii.js)
+- [repl](https://repl.it/@xiaoyunyang/122-best-time-to-buy-and-sell-stocks-ii)
+- O(N) solution by adding to result if current price is greater than previous price.
+
 ### Leetcode May 2020 Challenge
 
 278 - First Bad Version
