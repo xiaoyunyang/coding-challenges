@@ -449,6 +449,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/406-queue-reconstruction-by-height)
 - O(N logN) solution by pre-sorting the array by descending height and ascending K, then repeatedly update the result array.
 
+787 - Cheapest Flight with K Stops
+
+- [problem](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
+- [solution](/leetcode/787-cheapest-flight-with-k-stops.js)
+- [repl](https://repl.it/@xiaoyunyang/787-cheapest-flight-with-k-stops)
+- Solution by BFS in a graph while keeping track of distance and k
+
 700 - Search in a Binary Tree
 
 - [problem](https://leetcode.com/problems/search-in-a-binary-search-tree/)
