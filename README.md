@@ -94,6 +94,13 @@ TOC
 - [whiteboarding](/whiteboarding/leetcode/820-short-encoding-of-words.png)
 - Solution using trie of the reversed strings
 
+941 - Valid Mountain Array
+
+- [problem](https://leetcode.com/problems/valid-mountain-array/)
+- [solution](/leetcode/941-valid-mountain-array.js)
+- [repl](https://repl.it/@xiaoyunyang/941-valid-mountain-array)
+- O(N) solution using two while loops to walk the array once from left to right in two phases.
+
 945 - Minimum Increments to Make Array Unique
 
 - [problem](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)
