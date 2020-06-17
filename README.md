@@ -456,6 +456,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/380-insert-delete-getrandom-o1)
 - Solution using a map and an array in the datastructure to achieve O(1) delete and getRandom, respectively.
 
+75 - Sort Colors
+
+- [problem](https://leetcode.com/problems/sort-colors/)
+- [solution](/leetcode/75-sort-colors.js)
+- [repl](https://repl.it/@xiaoyunyang/75-sort-colors)
+- Dutch national flag problem. Solution using two pointers to keep track of the boundaries of the outer colors.
+
 787 - Cheapest Flight with K Stops
 
 - [problem](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
