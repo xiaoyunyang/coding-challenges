@@ -449,6 +449,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/406-queue-reconstruction-by-height)
 - O(N logN) solution by pre-sorting the array by descending height and ascending K, then repeatedly update the result array.
 
+468 - Valid IP Address
+
+- [problem](https://leetcode.com/problems/validate-ip-address/)
+- [solution](/leetcode/468-valid-ip-address.js)
+- [repl](https://repl.it/@xiaoyunyang/468-valid-ip-address)
+- Solution by regex and many if-statements.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
