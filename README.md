@@ -449,6 +449,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/406-queue-reconstruction-by-height)
 - O(N logN) solution by pre-sorting the array by descending height and ascending K, then repeatedly update the result array.
 
+380 - Insert Delete GetRandom O(1)
+
+- [problem](https://leetcode.com/problems/insert-delete-getrandom-o1/)
+- [solution](/leetcode/380-insert-delete-getrandom-o1.js)
+- [repl](https://repl.it/@xiaoyunyang/380-insert-delete-getrandom-o1)
+- Solution using a map and an array in the datastructure to achieve O(1) delete and getRandom, respectively.
+
 787 - Cheapest Flight with K Stops
 
 - [problem](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
