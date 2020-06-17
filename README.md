@@ -449,6 +449,12 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/406-queue-reconstruction-by-height)
 - O(N logN) solution by pre-sorting the array by descending height and ascending K, then repeatedly update the result array.
 
+700 - Search in a Binary Tree
+
+- [problem](https://leetcode.com/problems/search-in-a-binary-search-tree/)
+- [solution](/leetcode/700-search-in-a-binary-search-tree.js)
+- Solution by standard tree traversal
+
 468 - Valid IP Address
 
 - [problem](https://leetcode.com/problems/validate-ip-address/)
