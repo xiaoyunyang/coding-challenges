@@ -490,6 +490,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/468-valid-ip-address)
 - Solution by regex and many if-statements.
 
+130 - Surrounded Regions
+
+- [problem](https://leetcode.com/problems/surrounded-regions/)
+- [solution](/leetcode/130-surrounded-regions.js)
+- [repl](https://repl.it/@xiaoyunyang/130-surrounded-regions)
+- Solution using BFS and a set for keeping track of Os connected to any O on the edge.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
