@@ -497,6 +497,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/130-surrounded-regions)
 - Solution using BFS and a set for keeping track of Os connected to any O on the edge.
 
+137 - Single Number II
+
+- [problem](https://leetcode.com/problems/single-number-ii/)
+- [solution](/leetcode/137-single-number-ii.js)
+- [repl](https://repl.it/@xiaoyunyang/137-single-number-ii)
+- O(N) and constant space using bitwise operation.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
