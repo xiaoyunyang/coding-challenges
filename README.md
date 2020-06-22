@@ -463,6 +463,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/231-power-of-two)
 - O(logN) solution by repeatedly mod and divide the number by 2.
 
+392 - is Subsequence
+
+- [problem](https://leetcode.com/problems/is-subsequence/)
+- [solution](/leetcode/392-is-subsequence.js)
+- [repl](https://repl.it/@xiaoyunyang/392-is-subsequence)
+- O(N) solution by traversing all the characters of the longer string once and deleting the head character of the shorter string whenever it matches a character from teh longer string.
+
 35 - Search Insert Position
 
 - [problem](https://leetcode.com/problems/search-insert-position/)
