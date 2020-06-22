@@ -456,12 +456,11 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/406-queue-reconstruction-by-height)
 - O(N logN) solution by pre-sorting the array by descending height and ascending K, then repeatedly update the result array.
 
-380 - Insert Delete GetRandom O(1)
+35 - Search Insert Position
 
-- [problem](https://leetcode.com/problems/insert-delete-getrandom-o1/)
-- [solution](/leetcode/380-insert-delete-getrandom-o1.js)
-- [repl](https://repl.it/@xiaoyunyang/380-insert-delete-getrandom-o1)
-- Solution using a map and an array in the datastructure to achieve O(1) delete and getRandom, respectively.
+- [problem](https://leetcode.com/problems/search-insert-position/)
+- [solution](/leetcode/35-search-insert-position.js)
+- O(N) solution.
 
 75 - Sort Colors
 
@@ -469,6 +468,13 @@ TOC
 - [solution](/leetcode/75-sort-colors.js)
 - [repl](https://repl.it/@xiaoyunyang/75-sort-colors)
 - Dutch national flag problem. Solution using two pointers to keep track of the boundaries of the outer colors.
+
+380 - Insert Delete GetRandom O(1)
+
+- [problem](https://leetcode.com/problems/insert-delete-getrandom-o1/)
+- [solution](/leetcode/380-insert-delete-getrandom-o1.js)
+- [repl](https://repl.it/@xiaoyunyang/380-insert-delete-getrandom-o1)
+- Solution using a map and an array in the datastructure to achieve O(1) delete and getRandom, respectively.
 
 787 - Cheapest Flight with K Stops
 
