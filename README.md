@@ -497,6 +497,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/130-surrounded-regions)
 - Solution using BFS and a set for keeping track of Os connected to any O on the edge.
 
+275 - H-Index II
+
+- [problem](https://leetcode.com/problems/h-index-ii/)
+- [solution](/leetcode/275-h-index-ii.js)
+- [repl](https://repl.it/@xiaoyunyang/275-h-index-ii)
+- O(logN) solution using binary search
+
 137 - Single Number II
 
 - [problem](https://leetcode.com/problems/single-number-ii/)
