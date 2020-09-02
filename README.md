@@ -531,6 +531,15 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/137-single-number-ii)
 - O(N) and constant space using bitwise operation.
 
+### Leetcode September 2020 Challenge
+
+949 - Largest Time for Given Digits
+
+- [problem](https://leetcode.com/problems/largest-time-for-given-digits/)
+- [solution](/leetcode/949-largest-time-for-given-digits.js)
+- [repl](https://repl.it/@xiaoyunyang/949-largest-time-for-given-digits)
+- Solution using one loop and process of elimination. Pro-tip: Make A lot of helper functions.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
