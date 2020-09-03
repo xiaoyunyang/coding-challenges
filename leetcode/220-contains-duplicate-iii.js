@@ -9,18 +9,12 @@ var containsNearbyAlmostDuplicate = function(nums, k, t) {
   let i=0
   let j=1
   while(i<sorted.length && j<sorted.length) {
-    const {num: a, i: aInd} = sorted[i]
-    const {num: b, i: bInd} = sorted[j]
-    if(b-a>t) {
-      if(j===i+1) {
-        i++
-        j++
-      } else i++
-    } else if(Math.abs(aInd-bInd)>k) {
-      j++
-    } else {
-      return true
-    }
+    const range = Math.abs(sorted[j].i - sorted[i].i)
+    const diff = sorted[j].num-sorted[i].num
+    if(diff<=t && range<=k) return true
+    if(range>k) j++
+    else if (diff>t) i++
+    if(i===j) j++
   }
   return false
 };
