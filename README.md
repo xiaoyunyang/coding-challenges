@@ -540,6 +540,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/949-largest-time-for-given-digits)
 - Solution using one loop and process of elimination. Pro-tip: Make A lot of helper functions.
 
+220 - Contains Duplicate III
+
+- [problem](https://leetcode.com/problems/contains-duplicate-iii/)
+- [solution](/leetcode/220-contains-duplicate-iii.js)
+- [repl](https://repl.it/@xiaoyunyang/220-contains-duplicate-iii)
+- O(N logN) solution by sorting the array first and using two pointers and one while loop.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
