@@ -547,6 +547,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/220-contains-duplicate-iii)
 - O(N logN) solution by sorting the array first and using two pointers and one while loop.
 
+459 - Repeated Substring Pattern
+
+- [problem](https://leetcode.com/problems/repeated-substring-pattern/)
+- [solution](/leetcode/459-repeated-substring-pattern.js)
+- [repl](https://repl.it/@xiaoyunyang/459-repeated-substring-pattern)
+- O(N ^2) solution using a sliding window
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
