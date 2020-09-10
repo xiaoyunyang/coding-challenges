@@ -559,14 +559,21 @@ TOC
 - [problem](https://leetcode.com/problems/word-pattern/)
 - [solution](/leetcode/290-word-pattern.js)
 - [repl](https://repl.it/@xiaoyunyang/290-word-pattern)
-- O(N) solution using two hash maps
+- O(N) solution using two hash maps.
 
 1022 - Sum of Root To Leaf Binary Numbers
 
 - [problem](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)
 - [solution](/leetcode/1022-sum-of-root-to-leaf-binary-numbers.js)
 - [repl](https://repl.it/@xiaoyunyang/1022-sum-of-root-to-leaf-binary-numbers)
-- O(logN) solution using binary tree traversal and helper function to convert binary to a decimal number
+- O(logN) solution using binary tree traversal and helper function to convert binary to a decimal number.
+
+165 - Compare Version Numbers
+
+- [problem](https://leetcode.com/problems/compare-version-numbers/)
+- [solution](/leetcode/165-compare-version-numbers.js)
+- [repl](https://repl.it/@xiaoyunyang/165-compare-version-numbers)
+- O(N) solution using the weighted sum approach.
 
 ## Cracking the Coding Interview
 
