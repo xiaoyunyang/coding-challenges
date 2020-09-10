@@ -554,6 +554,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/459-repeated-substring-pattern)
 - O(N ^2) solution using a sliding window
 
+290 - Word Pattern
+
+- [problem](https://leetcode.com/problems/word-pattern/)
+- [solution](/leetcode/290-word-pattern.js)
+- [repl](https://repl.it/@xiaoyunyang/290-word-pattern)
+- O(N) solution using two hash maps
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
