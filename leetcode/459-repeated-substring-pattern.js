@@ -3,17 +3,17 @@
  * @return {boolean}
  */
 var repeatedSubstringPattern = function(s) {
-  let len = 1
-  while(len<=s.length>>1) {
-    const substr = s.substring(0,len)
-    for(let i=len; i<s.length; i+=len) {
-      // check substring matches
-      const end = i+len
-      const check = s.substring(i, end)
-      if(check!==substr) break;
-      else if(end===s.length) return true 
+  // approach: sliding window
+  const halfLen = s.length>>1
+  for(let windowSize=1; windowSize<=halfLen; windowSize++) {
+    const pattern = s.substring(0,windowSize)
+    for(let i=windowSize; i<s.length; i+=windowSize) {
+      const end = i+windowSize
+      const next = s.substring(i,end)
+      
+      if(pattern===next && end ===s.length) return true
+      else if(pattern!==next) break
     }
-    len++
   }
   return false
 };
