@@ -561,6 +561,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/290-word-pattern)
 - O(N) solution using two hash maps
 
+1022 - Sum of Root To Leaf Binary Numbers
+
+- [problem](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)
+- [solution](/leetcode/1022-sum-of-root-to-leaf-binary-numbers.js)
+- [repl](https://repl.it/@xiaoyunyang/1022-sum-of-root-to-leaf-binary-numbers)
+- O(logN) solution using binary tree traversal and helper function to convert binary to a decimal number
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
