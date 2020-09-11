@@ -79,6 +79,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/347-top-k-frequent-elements)
 - O(N log N) Solution by creating a frequency table.
 
+594 - Longest Harmonious Subsequence
+
+- [problem](https://leetcode.com/problems/longest-harmonious-subsequence/)
+- [solution](/leetcode/594-longest-harmonious-subsequence.js)
+- [repl](https://repl.it/@xiaoyunyang/594-longest-harmonious-subsequence)
+- O(N) Solution by creating a frequency table and updating a global maximum subsequence length in the loop.
+
 721 - Accounts Merge
 
 - [problem](https://leetcode.com/problems/accounts-merge/)
