@@ -3,7 +3,6 @@
  * @return {number}
  */
 var findLHS = function(nums) {
-  // simple O(N^2) algorithm
   let res = 0
   let h = {}
   for(let i=0; i<nums.length; i++) {

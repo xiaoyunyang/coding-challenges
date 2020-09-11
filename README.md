@@ -603,6 +603,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/299-bulls-and-cows)
 - O(N) solution using one frequency table and "cancel out" the matches.
 
+152 - Maximum Product Subarray
+
+- [problem](https://leetcode.com/problems/maximum-product-subarray/)
+- [solution](/leetcode/152-maximum-product-subarray.js)
+- [repl](https://repl.it/@xiaoyunyang/152-maximum-product-subarray)
+- O(N) solution using Kadane's algorithm and tracking both minimum and maximum local solutions.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
