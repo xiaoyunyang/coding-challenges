@@ -575,6 +575,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/165-compare-version-numbers)
 - O(N) solution using the weighted sum approach.
 
+299 - Bulls and Cows
+
+- [problem](https://leetcode.com/problems/bulls-and-cows/)
+- [solution](/leetcode/299-bulls-and-cows.js)
+- [repl](https://repl.it/@xiaoyunyang/299-bulls-and-cows)
+- O(N) solution using two frequency tables and "cancel out" the matches.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
