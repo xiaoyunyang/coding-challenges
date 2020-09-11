@@ -37,7 +37,7 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/3-longest-substring-without-repeating-characters)
 - O(N) solution using dynamic programming (kadane's algorithm). Keep track of the last time you saw the character in a hash table.
 
-41 - First Missing Postiive
+41 - First Missing Positive
 
 - [problem](https://leetcode.com/problems/first-missing-positive)
 - [solution](/leetcode/41-first-missing-positive.js)
@@ -85,6 +85,13 @@ TOC
 - [solution](/leetcode/594-longest-harmonious-subsequence.js)
 - [repl](https://repl.it/@xiaoyunyang/594-longest-harmonious-subsequence)
 - O(N) Solution by creating a frequency table and updating a global maximum subsequence length in the loop.
+
+690 - Employee Importance
+
+- [problem](https://leetcode.com/problems/employee-importance/)
+- [solution](/leetcode/690-employee-importance.js)
+- [repl](https://repl.it/@xiaoyunyang/690-employee-importance)
+- O(V*E) Solution by first creating a hash table for easy indexing of nodes in a graph, then traverse that graph via BFS.
 
 721 - Accounts Merge
 
