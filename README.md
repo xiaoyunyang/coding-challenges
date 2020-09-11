@@ -122,6 +122,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/945-minimum-increments-to-make-array-unique)
 - O(N logN) solution using greedy algorithm.
 
+1138 - Alphabet Board Path
+
+- [problem](https://leetcode.com/problems/alphabet-board-path/)
+- [solution](/leetcode/1138-alphabet-board-path.js)
+- [repl](https://repl.it/@xiaoyunyang/1138-alphabet-board-path)
+- Solution by solving a system of equations
+
 1276 - Number of Burgers With No Waste Of Ingredients
 
 - [problem](https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients)
