@@ -8,26 +8,19 @@ var getHint = function(secret, guess) {
   // B - matches of digit but wrong location
   let A = 0
   let B = 0
-  const sDigs = {}
-  const gDigs = {}
+  // freq table. Positive means more s seen. Negative means
+  // more g seen. zero means balanced.
+  const h = {}
   for(let i=0; i<secret.length; i++) {
     const s = secret[i]
     const g = guess[i]
     if(s===g) {
       A++
     } else {
-      sDigs[s] = (sDigs[s] || 0)+1
-      gDigs[g] = (gDigs[g] || 0)+1
-      if(sDigs[g]>0) {
-        B++
-        sDigs[g]--
-        gDigs[g]--
-      }
-      if(gDigs[s]>0) {
-        B++
-        gDigs[s]--
-        sDigs[s]--
-      }
+      if(h[g]>0) B++
+      h[g] = (h[g] || 0) - 1
+      if(h[s]<0) B++
+      h[s] = (h[s] || 0) + 1
     }
   }
   return `${A}A${B}B`
