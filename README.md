@@ -29,6 +29,7 @@ TOC
 - [April 2020 30-day Challenge](#leetcode-april-2020-challenge)
 - [May 2020 30-day Challenge](#leetcode-may-2020-challenge)
 - [June 2020 30-day Challenge](#leetcode-june-2020-challenge)
+- [September 2020 30-day Challenge](#leetcode-september-2020-challenge)
 
 3 - Longest Substring Without Repeating Characters
 
@@ -36,6 +37,13 @@ TOC
 - [solution](/leetcode/3-longest-substring-without-repeating-characters.js)
 - [repl](https://repl.it/@xiaoyunyang/3-longest-substring-without-repeating-characters)
 - O(N) solution using dynamic programming (kadane's algorithm). Keep track of the last time you saw the character in a hash table.
+
+39 - Combination Sum
+
+- [problem](https://leetcode.com/problems/combination-sum/)
+- [solution](/leetcode/https://leetcode.com/problems/39-combination-sum.js)
+- [repl](https://repl.it/@xiaoyunyang/39-combination-sum)
+- O(N^T) solution using recursive backtracking.
 
 41 - First Missing Positive
 
@@ -615,7 +623,7 @@ TOC
 - [problem](https://leetcode.com/problems/combination-sum-iii/)
 - [solution](/leetcode/216-combination-sum-iii.js)
 - [repl](https://repl.it/@xiaoyunyang/216-combination-sum-iii)
-- O(N^k) solution using Backtracking (DFS).
+- O(10^k) solution using Backtracking (DFS).
 
 ## Cracking the Coding Interview
 
