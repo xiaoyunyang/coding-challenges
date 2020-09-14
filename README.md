@@ -45,6 +45,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/39-combination-sum)
 - O(N^T) solution using recursive backtracking.
 
+40 - Combination Sum II
+
+- [problem](https://leetcode.com/problems/combination-sum-ii/)
+- [solution](/leetcode/https://leetcode.com/problems/40-combination-sum-ii.js)
+- [repl](https://repl.it/@xiaoyunyang/40-combination-sum-ii)
+- O(N^T) solution using recursive backtracking.
+
 41 - First Missing Positive
 
 - [problem](https://leetcode.com/problems/first-missing-positive)
