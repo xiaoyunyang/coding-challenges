@@ -610,6 +610,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/152-maximum-product-subarray)
 - O(N) solution using Kadane's algorithm and tracking both minimum and maximum local solutions.
 
+216 - Combination Sum III
+
+- [problem](https://leetcode.com/problems/combination-sum-iii/)
+- [solution](/leetcode/216-combination-sum-iii.js)
+- [repl](https://repl.it/@xiaoyunyang/216-combination-sum-iii)
+- O(N^k) solution using Backtracking (DFS).
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
