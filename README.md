@@ -632,6 +632,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/216-combination-sum-iii)
 - O(10^k) solution using Backtracking (DFS).
 
+198 - House Robber
+
+- [problem](https://leetcode.com/problems/house-robber/)
+- [solution](/leetcode/198-house-robber.js)
+- [repl](https://repl.it/@xiaoyunyang/198-house-robber)
+- O(N) solution using DP Table.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
