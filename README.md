@@ -632,6 +632,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/216-combination-sum-iii)
 - O(10^k) solution using Backtracking (DFS).
 
+57 - Insert Interval
+
+- [problem](https://leetcode.com/problems/insert-interval/)
+- [solution](/leetcode/57-insert-interval.js)
+- [repl](https://repl.it/@xiaoyunyang/57-insert-interval)
+- O(N) solution using interval covering technique.
+
 198 - House Robber
 
 - [problem](https://leetcode.com/problems/house-robber/)
