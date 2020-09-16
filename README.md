@@ -646,6 +646,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/198-house-robber)
 - O(N) solution using DP Table.
 
+58 - Length of Last Word
+
+- [problem](https://leetcode.com/problems/length-of-last-word/)
+- [solution](/leetcode/58-length-of-last-word.js)
+- [repl](https://repl.it/@xiaoyunyang/58-length-of-last-word)
+- O(N) solution using basic loop and `String.prototype.split` method.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
