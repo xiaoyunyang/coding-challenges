@@ -590,6 +590,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/459-repeated-substring-pattern)
 - O(N ^2) solution using a sliding window
 
+1305 - All Elements in Two Binary Search Trees
+
+- [problem](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)
+- [solution](/leetcode/1305-all-elements-in-two-binary-search-trees.js)
+- [repl](https://repl.it/@xiaoyunyang/1305-all-elements-in-two-binary-search-trees)
+- Solution using two in-order traversals (time complexity O(N)) to create two sorted arrays from the BSTs, then loop through both arrays at the same time in one while-loop (time complexity O(N)) to merge the two sorted arrays, similar to the merge step of merge sort.
+
 290 - Word Pattern
 
 - [problem](https://leetcode.com/problems/word-pattern/)
