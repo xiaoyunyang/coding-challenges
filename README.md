@@ -660,6 +660,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/58-length-of-last-word)
 - O(N) solution using basic loop and `String.prototype.split` method.
 
+421 - Maximum XOR of Two Numbers in an Array
+
+- [problem](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)
+- [solution](/leetcode/421-maximum-xor-of-two-numbers-in-an-array.js)
+- [repl](https://repl.it/@xiaoyunyang/421-maximum-xor-of-two-numbers-in-an-array)
+- O(N^2) solution using two loops.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
