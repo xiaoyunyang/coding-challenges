@@ -137,6 +137,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/945-minimum-increments-to-make-array-unique)
 - O(N logN) solution using greedy algorithm.
 
+953 - Verifying An Alien Dictionary
+
+- [problem](https://leetcode.com/problems/verifying-an-alien-dictionary/)
+- [solution](/leetcode/953-verifying-an-alien-dictionary.js)
+- [repl](https://repl.it/@xiaoyunyang/953-verifying-an-alien-dictionary)
+- O(N) solution using hash map to translate from alien alphabet to normal alphabet, then do a simple comparison in a loop to verify ascending order.
+
 1138 - Alphabet Board Path
 
 - [problem](https://leetcode.com/problems/alphabet-board-path/)
