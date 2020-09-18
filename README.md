@@ -667,6 +667,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/421-maximum-xor-of-two-numbers-in-an-array)
 - O(N^2) solution using two loops.
 
+1041 - Robot Bounded in Circle
+
+- [problem](https://leetcode.com/problems/robot-bounded-in-circle/)
+- [solution](/leetcode/1041-robot-bounded-in-circle.js)
+- [repl](https://repl.it/@xiaoyunyang/1041-robot-bounded-in-circle)
+- O(N) solution which stepping through the entire array of moves to calculate the robot's final direction and location.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
