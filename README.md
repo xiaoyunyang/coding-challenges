@@ -688,6 +688,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/121-best-time-to-buy-and-sell-stocks)
 - O(N) solution by updating the min, max, and maxProfit as you step through the array.
 
+1291 - Sequential Digit
+
+- [problem](https://leetcode.com/problems/sequential-digits/)
+- [solution](/leetcode/1291-sequential-digit.js)
+- [repl](https://repl.it/@xiaoyunyang/1291-sequential-digit)
+- O(N) solution by setting the limits of loops to min number of digits to max number of digits.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
