@@ -681,6 +681,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/1041-robot-bounded-in-circle)
 - O(N) solution which stepping through the entire array of moves to calculate the robot's final direction and location.
 
+121 - Best Time to Buy and Sell Stocks
+
+- [problem](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [solution](/leetcode/121-best-time-to-buy-and-sell-stocks.js)
+- [repl](https://repl.it/@xiaoyunyang/121-best-time-to-buy-and-sell-stocks)
+- O(N) solution by updating the min, max, and maxProfit as you step through the array.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
