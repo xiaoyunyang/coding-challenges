@@ -695,6 +695,15 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/1291-sequential-digit)
 - O(N) solution by setting the limits of loops to min number of digits to max number of digits.
 
+### Leetcode November 2020 Challenge
+
+1290 = Convert Binary Number in a Linked List to Integer
+
+- [problem](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
+- [solution](/leetcode/1290-convert-binary-number-in-a-linked-list-to-integer.js)
+- [repl](https://repl.it/@xiaoyunyang/1290-convert-binary-number-in-a-linked-list-to-integer)
+- O(N) solution. Trick is to use `Number.parseInt()` using 2 as the radix.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
