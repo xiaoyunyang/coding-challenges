@@ -697,12 +697,18 @@ TOC
 
 ### Leetcode November 2020 Challenge
 
-1290 = Convert Binary Number in a Linked List to Integer
+1290 - Convert Binary Number in a Linked List to Integer
 
 - [problem](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
 - [solution](/leetcode/1290-convert-binary-number-in-a-linked-list-to-integer.js)
 - [repl](https://repl.it/@xiaoyunyang/1290-convert-binary-number-in-a-linked-list-to-integer)
 - O(N) solution. Trick is to use `Number.parseInt()` using 2 as the radix.
+
+1446 - Consecutive Characters
+
+- [problem](https://leetcode.com/problems/consecutive-characters/)
+- [solution](/leetcode/1466-consecutive-characters.js)
+- O(N) solution. Update a globalMax every time you loop.
 
 ## Cracking the Coding Interview
 
