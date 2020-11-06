@@ -710,6 +710,12 @@ TOC
 - [solution](/leetcode/1466-consecutive-characters.js)
 - O(N) solution. Update a globalMax every time you loop.
 
+1217 - Minimum Cost to Move Chips to The Same Position
+
+- [problem](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)
+- [solution](/leetcode/1217-minimum-cost-to-move-chips-to-the-same-position.js)
+- O(N) solution. Keep track of the parity of each number as you loop through the array.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
