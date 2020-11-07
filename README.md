@@ -714,13 +714,21 @@ TOC
 
 - [problem](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)
 - [solution](/leetcode/1217-minimum-cost-to-move-chips-to-the-same-position.js)
+- [repl](https://repl.it/@xiaoyunyang/1217-minimum-cost-to-move-chips-to-the-same-position)
 - O(N) solution. Keep track of the parity of each number as you loop through the array.
 
 1283 - Find the Smallest Divisor Given a Threshold
 
 - [problem](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)
 - [solution](/leetcode/1283-find-the-smallest-divisor-given-a-threshold.js)
+- [repl](https://repl.it/@xiaoyunyang/1283-find-the-smallest-divisor-given-a-threshold)
 - O(log N) solution using binary search.
+
+2 - Add Two Numbers
+
+- [problem](https://leetcode.com/problems/add-two-numbers/)
+- [solution](/leetcode/2-add-two-numbers.js)
+- O(log N) solution using two stacks.
 
 ## Cracking the Coding Interview
 
