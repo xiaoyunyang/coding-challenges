@@ -724,11 +724,11 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/1283-find-the-smallest-divisor-given-a-threshold)
 - O(log N) solution using binary search.
 
-2 - Add Two Numbers
+445 - Add Two Numbers II
 
-- [problem](https://leetcode.com/problems/add-two-numbers/)
-- [solution](/leetcode/2-add-two-numbers.js)
-- O(log N) solution using two stacks.
+- [problem](https://leetcode.com/problems/add-two-numbers-ii/)
+- [solution](/leetcode/445-add-two-numbers-ii.js)
+- O(N) solution using two stacks.
 
 ## Cracking the Coding Interview
 
