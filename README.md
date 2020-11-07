@@ -716,6 +716,12 @@ TOC
 - [solution](/leetcode/1217-minimum-cost-to-move-chips-to-the-same-position.js)
 - O(N) solution. Keep track of the parity of each number as you loop through the array.
 
+1283 - Find the Smallest Divisor Given a Threshold
+
+- [problem](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)
+- [solution](/leetcode/1283-find-the-smallest-divisor-given-a-threshold.js)
+- O(log N) solution using binary search.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
