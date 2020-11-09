@@ -730,6 +730,13 @@ TOC
 - [solution](/leetcode/445-add-two-numbers-ii.js)
 - O(N) solution using two stacks.
 
+563 - Binary Tree Tilt
+
+- [problem](https://leetcode.com/problems/binary-tree-tilt/)
+- [solution](/leetcode/563-binary-tree-tilt.js)
+- [repl](https://repl.it/@xiaoyunyang/563-binary-tree-tilt)
+- O(logN) solution by tree traversal.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
