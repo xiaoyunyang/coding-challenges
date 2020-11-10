@@ -737,6 +737,12 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/563-binary-tree-tilt)
 - O(logN) solution by tree traversal.
 
+1026 - Maximum Difference Between Node and Ancestor
+
+- [problem](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)
+- [solution](/leetcode/1026-maximum-difference-between-node-and-ancestor.js)
+- O(logN) solution by tree traversal. The solution is the max of the left subtree solution and right subtree solution.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
