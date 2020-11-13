@@ -757,6 +757,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/593-valid-square)
 - Solution using the [geometric property of a square](https://softwareengineering.stackexchange.com/questions/176938/how-to-check-if-4-points-form-a-square): find distances between all the points and check that there exists two unique non-zero distances. Optimization using a set (cleaner code).
 
+47 - Permutations II
+
+- [problem](https://leetcode.com/problems/permutations-ii/)
+- [solution](/leetcode/47-permutations-ii.js)
+- [repl](https://repl.it/@xiaoyunyang/47-permutations-ii)
+- Solution using recursion (dfs). Keep track of nodes we have visited. Sort the `nums` to make sure we skip the same value. When the current value is equal to the previous value, we only use this value if the previous is used.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
