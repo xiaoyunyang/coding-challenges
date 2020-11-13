@@ -743,6 +743,13 @@ TOC
 - [solution](/leetcode/1026-maximum-difference-between-node-and-ancestor.js)
 - O(logN) solution by tree traversal. The solution is the max of the left subtree solution and right subtree solution.
 
+832 - Flipping an Image
+
+- [problem](https://leetcode.com/problems/flipping-an-image/)
+- [solution](/leetcode/832-flipping-an-image.js)
+- [repl](https://repl.it/@xiaoyunyang/832-flipping-an-image)
+- O(N * M) solution by traversing the matrix. Use two pointers in a while loop method for optimization
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
