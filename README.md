@@ -748,7 +748,14 @@ TOC
 - [problem](https://leetcode.com/problems/flipping-an-image/)
 - [solution](/leetcode/832-flipping-an-image.js)
 - [repl](https://repl.it/@xiaoyunyang/832-flipping-an-image)
-- O(N * M) solution by traversing the matrix. Use two pointers in a while loop method for optimization
+- O(N * M) solution by traversing the matrix. Use two pointers in a while loop method for optimization.
+
+593 - Valid Square
+
+- [problem](https://leetcode.com/problems/valid-square/)
+- [solution](/leetcode/593-valid-square.js)
+- [repl](https://repl.it/@xiaoyunyang/593-valid-square)
+- Solution using the [geometric property of a square](https://softwareengineering.stackexchange.com/questions/176938/how-to-check-if-4-points-form-a-square): find distances between all the points and check that there exists two unique non-zero distances. Optimization using a set (cleaner code).
 
 ## Cracking the Coding Interview
 
