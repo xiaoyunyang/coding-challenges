@@ -764,6 +764,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/47-permutations-ii)
 - Solution using recursion (dfs). Keep track of nodes we have visited. Sort the `nums` to make sure we skip the same value. When the current value is equal to the previous value, we only use this value if the previous is used.
 
+116 - Populating Next Right Pointers in Each Node
+
+- [problem](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
+- [solution](/leetcode/116-populating-next-right-pointers-in-each-node.js)
+- [repl](https://repl.it/@xiaoyunyang/116-populating-next-right-pointers-in-each-node)
+- Log(N) Solution using BFS. The trick is to recognize the number of nodes to at each level doubles.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
