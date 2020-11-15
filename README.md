@@ -589,6 +589,13 @@ TOC
 - [solution](/leetcode/705-design-hashset.js)
 - Solution using a JS object.
 
+125 - Valid Palindrome
+
+- [problem](https://leetcode.com/problems/valid-palindrome/)
+- [solution](/leetcode/125-valid-palindrome.js)
+- [repl](https://repl.it/@xiaoyunyang/125-valid-palindrome)
+- Solution two pointers and a while loop.
+
 ### Leetcode September 2020 Challenge
 
 949 - Largest Time for Given Digits
