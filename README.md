@@ -575,7 +575,6 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/137-single-number-ii)
 - O(N) and constant space using bitwise operation.
 
-
 ### Leetcode August 2020 Challenge
 
 226 - Invert Binary Tree
@@ -583,6 +582,12 @@ TOC
 - [problem](https://leetcode.com/problems/invert-binary-tree/)
 - [solution](/leetcode/226-invert-binary-tree.js)
 - O(log N) Solution. 2 recursive calls per level for logN levels.
+
+705 - Design HashSet
+
+- [problem](https://leetcode.com/problems/design-hashset/)
+- [solution](/leetcode/705-design-hashset.js)
+- Solution using a JS object.
 
 ### Leetcode September 2020 Challenge
 
