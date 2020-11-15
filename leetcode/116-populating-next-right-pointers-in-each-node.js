@@ -16,13 +16,13 @@ var connect = function(root) {
   // BFS because we need to explore level by level
   if(!root) return root
   const q = []
-  let level = 1 
+  let numNodes = 1 // numNodes per level 
   q.push(root)
   
   while(q.length) {
     let prevN
     let currN
-    for(let i=0; i<level; i++) {
+    for(let i=0; i<numNodes; i++) {
       currN = q.shift()
       if(prevN) {
         prevN.next = currN
@@ -34,7 +34,7 @@ var connect = function(root) {
       prevN = currN
     }
     
-    level *= 2
+    numNodes *=2
   }
   return root
 };

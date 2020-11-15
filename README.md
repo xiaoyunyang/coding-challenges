@@ -459,11 +459,12 @@ TOC
 
 ### Leetcode June 2020 Challenge
 
-226 - Invert Binary Tree
+520 - Detect Capital
 
-- [problem](https://leetcode.com/problems/invert-binary-tree/)
-- [solution](/leetcode/226-invert-binary-tree.js)
-- O(log N) Solution. 2 recursive calls per level for logN levels.
+- [problem](https://leetcode.com/problems/detect-capital/)
+- [solution](/leetcode/520-detect-capital.js)
+- [repl](https://repl.it/@xiaoyunyang/520-detect-capital)
+- Solution by finding all the capital letters in the word
 
 237 - Delete Node in a Linked List
 
@@ -573,6 +574,15 @@ TOC
 - [solution](/leetcode/137-single-number-ii.js)
 - [repl](https://repl.it/@xiaoyunyang/137-single-number-ii)
 - O(N) and constant space using bitwise operation.
+
+
+### Leetcode August 2020 Challenge
+
+226 - Invert Binary Tree
+
+- [problem](https://leetcode.com/problems/invert-binary-tree/)
+- [solution](/leetcode/226-invert-binary-tree.js)
+- O(log N) Solution. 2 recursive calls per level for logN levels.
 
 ### Leetcode September 2020 Challenge
 
@@ -769,7 +779,7 @@ TOC
 - [problem](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 - [solution](/leetcode/116-populating-next-right-pointers-in-each-node.js)
 - [repl](https://repl.it/@xiaoyunyang/116-populating-next-right-pointers-in-each-node)
-- Log(N) Solution using BFS. The trick is to recognize the number of nodes to at each level doubles.
+- O(N) Solution using BFS. The trick is to recognize the number of nodes to at each level doubles.
 
 ## Cracking the Coding Interview
 
