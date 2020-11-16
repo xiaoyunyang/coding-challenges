@@ -596,6 +596,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/125-valid-palindrome)
 - Solution two pointers and a while loop.
 
+342 - Power of Four
+
+- [problem](https://leetcode.com/problems/power-of-four/)
+- [solution](/leetcode/problems/342-power-of-four.js)
+- [repl](https://repl.it/@xiaoyunyang/342-power-of-four)
+- O(log_4 N) solution by recursively dividing the number by 4 until the number is equal to 1.
+
 ### Leetcode September 2020 Challenge
 
 949 - Largest Time for Given Digits
