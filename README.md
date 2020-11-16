@@ -29,7 +29,9 @@ TOC
 - [April 2020 30-day Challenge](#leetcode-april-2020-challenge)
 - [May 2020 30-day Challenge](#leetcode-may-2020-challenge)
 - [June 2020 30-day Challenge](#leetcode-june-2020-challenge)
+- [August 2020 30-day Challenge](#leetcode-august-2020-challenge)
 - [September 2020 30-day Challenge](#leetcode-september-2020-challenge)
+- [November 2020 30-day Challenge](#leetcode-november-2020-challenge)
 
 3 - Longest Substring Without Repeating Characters
 
@@ -602,6 +604,12 @@ TOC
 - [solution](/leetcode/problems/342-power-of-four.js)
 - [repl](https://repl.it/@xiaoyunyang/342-power-of-four)
 - O(log_4 N) solution by recursively dividing the number by 4 until the number is equal to 1.
+
+442 - Find All Duplicates in an Array
+
+- [problem](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
+- [solution](/leetcode/problems/442-find-all-duplicates-in-an-array.js)
+- O(N) solution using the repeated array update strategy. As we loop, we can negate the elements at index `j` where `j=Math.abs(nums[i])-1`. This works because the constraint: `1 ≤ a[i] ≤ n (n = size of array)`. If anytime we detect that element at index `j` is negative, that means the current element is a duplicate.
 
 ### Leetcode September 2020 Challenge
 
