@@ -806,7 +806,14 @@ TOC
 - [problem](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 - [solution](/leetcode/116-populating-next-right-pointers-in-each-node.js)
 - [repl](https://repl.it/@xiaoyunyang/116-populating-next-right-pointers-in-each-node)
-- O(N) Solution using BFS. The trick is to recognize the number of nodes to at each level doubles.
+- O(N) solution using BFS. The trick is to recognize the number of nodes to at each level doubles.
+
+845 - Longest Mountain in Array
+
+- [problem](https://leetcode.com/problems/longest-mountain-in-array/)
+- [solution](/leetcode/845-longest-mountain-in-array.js)
+- [repl](https://repl.it/@xiaoyunyang/longest-mountain-in-array)
+- O(N) solution using the range splitting method.
 
 ## Cracking the Coding Interview
 
