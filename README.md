@@ -815,6 +815,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/longest-mountain-in-array)
 - O(N) solution using the range splitting method.
 
+394 - Decode String
+
+- [problem](https://leetcode.com/problems/decode-string/)
+- [solution](/leetcode/394-decode-string.js)
+- [repl](https://repl.it/@xiaoyunyang/394-decode-string)
+- O(N) solution using a stack and while loops inside a for-loop.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
