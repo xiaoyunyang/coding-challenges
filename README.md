@@ -815,6 +815,12 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/longest-mountain-in-array)
 - O(N) solution using the range splitting method.
 
+858 - Mirror Reflection
+
+- [problem](https://leetcode.com/problems/mirror-reflection/)
+- [solution](/leetcode/858-mirror-reflection.js)
+- Solution using modulo to calculate ratio of p and q.
+
 394 - Decode String
 
 - [problem](https://leetcode.com/problems/decode-string/)
