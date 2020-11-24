@@ -822,6 +822,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/394-decode-string)
 - O(N) solution using a stack and while loops inside a for-loop.
 
+337 - House Robber III
+
+- [problem](https://leetcode.com/problems/house-robber-iii/)
+- [solution](/leetcode/337-house-robber-iii.js)
+- [repl](https://repl.it/@xiaoyunyang/337-house-robber-iii)
+- O(logN) solution using tree-traversal and divide and conquer algorithm.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
