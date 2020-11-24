@@ -822,6 +822,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/394-decode-string)
 - O(N) solution using a stack and while loops inside a for-loop.
 
+804 - Unique Morse Code Words
+
+- [problem](https://leetcode.com/problems/unique-morse-code-words/)
+- [solution](/leetcode/804-unique-morse-code-words.js)
+- [repl](https://repl.it/@xiaoyunyang/804-unique-morse-code-words)
+- O(N) solution using set to keep track of unique morse code patterns.
+
 337 - House Robber III
 
 - [problem](https://leetcode.com/problems/house-robber-iii/)
