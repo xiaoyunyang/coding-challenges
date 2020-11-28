@@ -6,6 +6,7 @@
 
 - [Linked List](/datastructure/LinkedList.js)
 - [Queue](/datastructure/Queue.js)
+- [Dequeue](/datastructure/Dequeue.js)
 - [MinHeap](/datastructure/MinHeap.js)
 - [Union Find](/datastructure/UnionFind.js)
 - Binary Search Tree
