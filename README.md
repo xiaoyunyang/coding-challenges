@@ -578,6 +578,15 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/137-single-number-ii)
 - O(N) and constant space using bitwise operation.
 
+### Leetcode July 2020 Challenge
+
+66 - Plus One
+
+- [problem](https://leetcode.com/problems/plus-one/)
+- [solution](/leetcode/66-plus-one.js)
+- [repl](https://repl.it/@xiaoyunyang/66-plus-one)
+- O(N) solution using `unshift` to add new digit to the front of the array and use carry. Need to have a post processing step to add the extra one to the front as necessary.
+
 ### Leetcode August 2020 Challenge
 
 226 - Invert Binary Tree
@@ -862,7 +871,7 @@ TOC
 - [problem](https://leetcode.com/problems/jump-game-iii/)
 - [solution](/leetcode/1306-jump-game-iii.js)
 - [repl](https://repl.it/@xiaoyunyang/1306-jump-game-iii)
-- O(logN) solution using DFS.
+- O(N) solution using DFS.
 
 ## Cracking the Coding Interview
 
