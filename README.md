@@ -843,6 +843,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/337-house-robber-iii)
 - O(logN) solution using tree-traversal and divide and conquer algorithm.
 
+239 - Sliding Window Maximum
+
+- [problem](https://leetcode.com/problems/sliding-window-maximum/)
+- [solution](/leetcode/239-sliding-window-maximum.js)
+- [repl](https://repl.it/@xiaoyunyang/239-sliding-window-maximum)
+- O(N) solution using Dequeue. Keep track of indices in dequeue. Prune the dequeue of out of range indices and indices whose associated number is less than the current num.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
