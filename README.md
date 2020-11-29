@@ -857,6 +857,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/239-sliding-window-maximum)
 - O(N) solution using Dequeue. Keep track of indices in dequeue. Prune the dequeue of out of range indices and indices whose associated number is less than the current num.
 
+1306 - Jump Game III
+
+- [problem](https://leetcode.com/problems/jump-game-iii/)
+- [solution](/leetcode/1306-jump-game-iii.js)
+- [repl](https://repl.it/@xiaoyunyang/1306-jump-game-iii)
+- O(logN) solution using DFS.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
