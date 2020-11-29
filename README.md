@@ -30,6 +30,7 @@ TOC
 - [April 2020 30-day Challenge](#leetcode-april-2020-challenge)
 - [May 2020 30-day Challenge](#leetcode-may-2020-challenge)
 - [June 2020 30-day Challenge](#leetcode-june-2020-challenge)
+- [July 2020 30-day Challenge](#leetcode-july-2020-challenge)
 - [August 2020 30-day Challenge](#leetcode-august-2020-challenge)
 - [September 2020 30-day Challenge](#leetcode-september-2020-challenge)
 - [November 2020 30-day Challenge](#leetcode-november-2020-challenge)
@@ -579,6 +580,13 @@ TOC
 - O(N) and constant space using bitwise operation.
 
 ### Leetcode July 2020 Challenge
+
+441 - Arranging Coins
+
+- [problem](https://leetcode.com/problems/arranging-coins/)
+- [solution](/leetcode/441-arranging-coins.js)
+- [repl](https://repl.it/@xiaoyunyang/441-arranging-coins)
+- O(N) solution using while loop with early return.
 
 66 - Plus One
 
