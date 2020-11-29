@@ -822,6 +822,13 @@ TOC
 - [solution](/leetcode/858-mirror-reflection.js)
 - Solution using modulo to calculate ratio of p and q.
 
+56 - Merge Intervals
+
+- [problem](https://leetcode.com/problems/merge-intervals/)
+- [solution](/leetcode/56-merge-intervals.js)
+- [repl](https://repl.it/@xiaoyunyang/56-merge-intervals)
+- O(N) solution using a stack to keep track of the previous interval
+
 394 - Decode String
 
 - [problem](https://leetcode.com/problems/decode-string/)
