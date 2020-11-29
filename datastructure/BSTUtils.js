@@ -40,8 +40,23 @@ Examples:
      2   3
       \    \
        4    5
+
+[3,4,5,-7,-6,null,null,-7,null,-5,null,null,null,-4]
+       3
+      / \
+     4   5
+   /   \ 
+  -7   -6
+ /    /
+-7   -5 
+     /
+   -4
+
 */
 
+
+// TODO: bstFromArray fails for this case: [3,4,5,-7,-6,null,null,-7,null,-5,null,null,null,-4]
+// The -4 leaf node does not get added to the tree
 export function bstFromArray(arr) {
   function buildTree(i) {
     if(i>=arr.length || arr[i] === null) return null
