@@ -42,6 +42,14 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/3-longest-substring-without-repeating-characters)
 - O(N) solution using dynamic programming (kadane's algorithm). Keep track of the last time you saw the character in a hash table.
 
+20 - Valid Parentheses
+
+- [problem](https://leetcode.com/problems/valid-parentheses/)
+- [solution](/leetcode/20-valid-parentheses.js)
+- [repl](https://repl.it/@xiaoyunyang/20-valid-parentheses)
+- O(N) solution using a stack to make sure every type of open parenthesis is immediately followed by a close parenthesis of the same type.
+
+
 39 - Combination Sum
 
 - [problem](https://leetcode.com/problems/combination-sum/)
