@@ -47,8 +47,7 @@ TOC
 - [problem](https://leetcode.com/problems/valid-parentheses/)
 - [solution](/leetcode/20-valid-parentheses.js)
 - [repl](https://repl.it/@xiaoyunyang/20-valid-parentheses)
-- O(N) solution using a stack to make sure every type of open parenthesis is immediately followed by a close parenthesis of the same type.
-
+- O(N) solution using a stack to make sure every type of open bracket is immediately followed by a close bracket of the same type.
 
 39 - Combination Sum
 
@@ -895,6 +894,14 @@ TOC
 - [solution](/leetcode/1306-jump-game-iii.js)
 - [repl](https://repl.it/@xiaoyunyang/1306-jump-game-iii)
 - O(N) solution using DFS.
+
+### Leetcode November 2020 Challenge
+
+104 - Maximum Depth of Binary Tree
+
+- [problem](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+- [solution](/leetcode/104-max-depth-of-binary-tree.js)
+- O(logN) solution using tree traversal
 
 ## Cracking the Coding Interview
 
