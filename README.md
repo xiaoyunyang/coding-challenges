@@ -903,6 +903,13 @@ TOC
 - [solution](/leetcode/104-max-depth-of-binary-tree.js)
 - O(logN) solution using tree traversal
 
+605 - Can Place Flowers
+
+- [problem](https://leetcode.com/problems/can-place-flowers/)
+- [solution](/leetcode/605-can-place-flowers.js)
+- [repl](https://repl.it/@xiaoyunyang/605-can-place-flowers)
+- O(N) solution by counting zeros and using a function to map number of zeros to number of flowers that can be planted
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
