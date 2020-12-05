@@ -908,7 +908,7 @@ TOC
 - [problem](https://leetcode.com/problems/can-place-flowers/)
 - [solution](/leetcode/605-can-place-flowers.js)
 - [repl](https://repl.it/@xiaoyunyang/605-can-place-flowers)
-- O(N) solution by counting zeros and using a function to map number of zeros to number of flowers that can be planted
+- O(N) solution by counting zeros and using a function to map number of zeros to number of flowers that can be planted. Alternatively, use greedy algorithm. 
 
 ## Cracking the Coding Interview
 

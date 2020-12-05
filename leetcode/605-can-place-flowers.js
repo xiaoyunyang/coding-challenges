@@ -3,6 +3,24 @@
  * @param {number} n
  * @return {boolean}
  */
+var canPlaceFlowersGreedy = function(flowerbed, n) {
+  let planted = 0
+  for(let i=0; i<flowerbed.length; i++) {
+    if(flowerbed[i]===0 && !flowerbed[i-1] && !flowerbed[i+1]) {
+      flowerbed[i] = 1
+      planted++
+    }
+    if(planted>=n) return true
+  }
+  return false
+};
+
+
+/**
+ * @param {number[]} flowerbed
+ * @param {number} n
+ * @return {boolean}
+ */
 var canPlaceFlowers = function(flowerbed, n) {
   let zeros = 0
   let canPlant = 0
