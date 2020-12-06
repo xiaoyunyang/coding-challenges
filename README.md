@@ -910,6 +910,14 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/605-can-place-flowers)
 - O(N) solution by counting zeros and using a function to map number of zeros to number of flowers that can be planted. Alternatively, use greedy algorithm. 
 
+117 - Populating Next Right Pointers in Each Node II
+
+- [problem](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
+- [solution](/leetcode/117-populating-next-right-pointers-in-each-node-ii.js)
+- [repl](https://repl.it/@xiaoyunyang/117-populating-next-right-pointers-in-each-node-ii)
+- O(N) solution by keeping track of level in the queue and BFS
+
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
