@@ -917,6 +917,12 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/117-populating-next-right-pointers-in-each-node-ii)
 - O(N) solution by keeping track of level in the queue and BFS
 
+59 - Spiral Matrix II
+
+- [problem](https://leetcode.com/problems/spiral-matrix-ii/)
+- [solution](/leetcode/59-spiral-matrix-ii.js)
+- [repl](https://repl.it/@xiaoyunyang/59-spiral-matrix-ii)
+- O(N^2) solution using switch statements and index math.
 
 ## Cracking the Coding Interview
 
