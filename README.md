@@ -924,6 +924,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/59-spiral-matrix-ii)
 - O(N^2) solution using switch statements and index math.
 
+1010 - Pairs of Songs With Total Durations Divisible by 60
+
+- [problem](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)
+- [solution](/leetcode/1010-pairs-of-songs-with-durations-divisible-by-60.js)
+- [repl](https://repl.it/@xiaoyunyang/1010-pairs-of-songs-with-durations-divisible-by-60)
+- O(N) solution and constant space complexity algorithm using hash table to count the frequency of the complements of each time.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
