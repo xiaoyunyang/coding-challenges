@@ -35,6 +35,13 @@ TOC
 - [September 2020 30-day Challenge](#leetcode-september-2020-challenge)
 - [November 2020 30-day Challenge](#leetcode-november-2020-challenge)
 
+1 - Two Sum
+
+- [problem](https://leetcode.com/problems/two-sum/)
+- [solution](/leetcode/1-two-sum.js)
+- [repl](https://repl.it/@xiaoyunyang/1-two-sum)
+- O(N) solution using one pass hash table storing the index of the complement number Complement is defined as `target - nums[i]`.
+
 3 - Longest Substring Without Repeating Characters
 
 - [problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
