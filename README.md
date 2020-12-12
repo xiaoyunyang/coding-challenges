@@ -939,6 +939,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/941-valid-mountain-array)
 - O(N) solution using two while loops to walk the array once from left to right in two phases.
 
+80 - Remove Duplicates from Sorted Array II
+
+- [problem](hhttps://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+- [solution](/leetcode/80-remove-duplicates-from-sorted-array-ii.js)
+- [repl](https://repl.it/@xiaoyunyang/80-remove-duplicates-from-sorted-array-ii)
+- O(N) solution using a while-loop, `splice` to modify the array in place, and no data-structure (taking advantage of the fact that the array of nums is sorted in ascending order).
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
