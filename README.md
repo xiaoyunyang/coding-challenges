@@ -34,6 +34,7 @@ TOC
 - [August 2020 30-day Challenge](#leetcode-august-2020-challenge)
 - [September 2020 30-day Challenge](#leetcode-september-2020-challenge)
 - [November 2020 30-day Challenge](#leetcode-november-2020-challenge)
+- [December 2020 30-day Challenge](#leetcode-december-2020-challenge)
 
 1 - Two Sum
 
@@ -140,13 +141,6 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/leetcode-short-encoding-of-words)
 - [whiteboarding](/whiteboarding/leetcode/820-short-encoding-of-words.png)
 - Solution using trie of the reversed strings
-
-941 - Valid Mountain Array
-
-- [problem](https://leetcode.com/problems/valid-mountain-array/)
-- [solution](/leetcode/941-valid-mountain-array.js)
-- [repl](https://repl.it/@xiaoyunyang/941-valid-mountain-array)
-- O(N) solution using two while loops to walk the array once from left to right in two phases.
 
 945 - Minimum Increments to Make Array Unique
 
@@ -902,7 +896,7 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/1306-jump-game-iii)
 - O(N) solution using DFS.
 
-### Leetcode November 2020 Challenge
+### Leetcode December 2020 Challenge
 
 104 - Maximum Depth of Binary Tree
 
@@ -937,6 +931,13 @@ TOC
 - [solution](/leetcode/1010-pairs-of-songs-with-durations-divisible-by-60.js)
 - [repl](https://repl.it/@xiaoyunyang/1010-pairs-of-songs-with-durations-divisible-by-60)
 - O(N) solution and constant space complexity algorithm using hash table to count the frequency of the complements of each time.
+
+941 - Valid Mountain Array
+
+- [problem](https://leetcode.com/problems/valid-mountain-array/)
+- [solution](/leetcode/941-valid-mountain-array.js)
+- [repl](https://repl.it/@xiaoyunyang/941-valid-mountain-array)
+- O(N) solution using two while loops to walk the array once from left to right in two phases.
 
 ## Cracking the Coding Interview
 
