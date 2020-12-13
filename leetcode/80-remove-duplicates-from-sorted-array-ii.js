@@ -3,7 +3,6 @@
  * @return {number}
  */
 var removeDuplicates = function(nums) {
-  const numCount = {}
   let i=1;
   while(i<nums.length-1) {
     if(nums[i+1]===nums[i-1]) {
