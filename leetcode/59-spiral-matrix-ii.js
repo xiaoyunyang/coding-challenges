@@ -13,25 +13,25 @@ var generateMatrix = function(n) {
   const getNext = (i,j, dir) => {
     if(dir==="RIGHT") {
       if(j+1<n && !matrix[i][j+1]) {
-        return [i, j+1,dir]
+        return [i, j+1, dir]
       }
       return [i+1, j, "DOWN"]
     }
     if(dir==="DOWN") {
       if(i+1<n && !matrix[i+1][j]) {
-        return [i+1, j, "DOWN"]
+        return [i+1, j, dir]
       }
       return [i, j-1, "LEFT"]
     }
     if(dir==="LEFT") {
       if(j-1>=0 && !matrix[i][j-1]) {
-        return [i,j-1, "LEFT"]
+        return [i,j-1, dir]
       }
       return [i-1, j, "UP"]
     }
-    // UP
+    // dir === UP
     if(i-1>=0 && !matrix[i-1][j]) {
-      return [i-1, j, "UP"]
+      return [i-1, j, dir]
     }
     return [i, j+1, "RIGHT"]
   

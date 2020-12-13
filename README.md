@@ -946,6 +946,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/80-remove-duplicates-from-sorted-array-ii)
 - O(N) solution using a while-loop, `splice` to modify the array in place, and no data-structure (taking advantage of the fact that the array of nums is sorted in ascending order).
 
+865 - Smallest Subtree with all the Deepest Nodes
+
+- [problem](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)
+- [solution](/leetcode/865-smallest-subtree-with-all-the-deepest-nodes.js)
+- [repl](https://repl.it/@xiaoyunyang/865-smallest-subtree-with-all-the-deepest-nodes)
+- O(logN) solution using tree traversal.
+
 312 - Burst Balloons
 
 - [problem](https://leetcode.com/problems/burst-balloons/)
