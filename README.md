@@ -946,6 +946,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/80-remove-duplicates-from-sorted-array-ii)
 - O(N) solution using a while-loop, `splice` to modify the array in place, and no data-structure (taking advantage of the fact that the array of nums is sorted in ascending order).
 
+312 - Burst Balloons
+
+- [problem](https://leetcode.com/problems/burst-balloons/)
+- [solution](/leetcode/312-burst-balloons.js)
+- [repl](https://repl.it/@xiaoyunyang/312-burst-balloons)
+- O(N^2) solution using DP table. Each entry of the DP table stores the max coins we get from bursting bubbles between `left` and `right`.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
