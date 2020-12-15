@@ -27,14 +27,31 @@ Nodes
 
 TOC
 
-- [April 2020 30-day Challenge](#leetcode-april-2020-challenge)
-- [May 2020 30-day Challenge](#leetcode-may-2020-challenge)
-- [June 2020 30-day Challenge](#leetcode-june-2020-challenge)
-- [July 2020 30-day Challenge](#leetcode-july-2020-challenge)
-- [August 2020 30-day Challenge](#leetcode-august-2020-challenge)
-- [September 2020 30-day Challenge](#leetcode-september-2020-challenge)
-- [November 2020 30-day Challenge](#leetcode-november-2020-challenge)
-- [December 2020 30-day Challenge](#leetcode-december-2020-challenge)
+- [Coding Challenges Collection](#coding-challenges-collection)
+  - [Data Structures](#data-structures)
+  - [LeetCode](#leetcode)
+    - [Leetcode April 2020 Challenge](#leetcode-april-2020-challenge)
+    - [Leetcode May 2020 Challenge](#leetcode-may-2020-challenge)
+    - [Leetcode June 2020 Challenge](#leetcode-june-2020-challenge)
+    - [Leetcode July 2020 Challenge](#leetcode-july-2020-challenge)
+    - [Leetcode August 2020 Challenge](#leetcode-august-2020-challenge)
+    - [Leetcode September 2020 Challenge](#leetcode-september-2020-challenge)
+    - [Leetcode November 2020 Challenge](#leetcode-november-2020-challenge)
+    - [Leetcode December 2020 Challenge](#leetcode-december-2020-challenge)
+  - [Cracking the Coding Interview](#cracking-the-coding-interview)
+    - [Arrays and Strings](#arrays-and-strings)
+    - [Linked List](#linked-list)
+    - [Stacks and Queues](#stacks-and-queues)
+    - [Graph](#graph)
+    - [Math and Logic Puzzles](#math-and-logic-puzzles)
+    - [Moderate Problems](#moderate-problems)
+    - [Hard Problems](#hard-problems)
+  - [Misc](#misc)
+    - [Flood Fill](#flood-fill)
+    - [Deserialize-1](#deserialize-1)
+    - [Shuffle](#shuffle)
+    - [Sort 2D Array](#sort-2d-array)
+    - [Array](#array)
 
 1 - Two Sum
 
@@ -909,7 +926,7 @@ TOC
 - [problem](https://leetcode.com/problems/can-place-flowers/)
 - [solution](/leetcode/605-can-place-flowers.js)
 - [repl](https://repl.it/@xiaoyunyang/605-can-place-flowers)
-- O(N) solution by counting zeros and using a function to map number of zeros to number of flowers that can be planted. Alternatively, use greedy algorithm. 
+- O(N) solution by counting zeros and using a function to map number of zeros to number of flowers that can be planted. Alternatively, use greedy algorithm.
 
 117 - Populating Next Right Pointers in Each Node II
 
@@ -959,6 +976,13 @@ TOC
 - [solution](/leetcode/312-burst-balloons.js)
 - [repl](https://repl.it/@xiaoyunyang/312-burst-balloons)
 - O(N^2) solution using DP table. Each entry of the DP table stores the max coins we get from bursting bubbles between `left` and `right`.
+
+977 - Squares of a Sorted Array
+
+- [problem](https://leetcode.com/problems/squares-of-a-sorted-array/)
+- [solution](/leetcode/977-squares-of-a-sorted-array.js)
+- [repl](https://repl.it/@xiaoyunyang/977-squares-of-a-sorted-array)
+- O(N) solution using a stack to keep track of the squares of the negative numbers and perform a merge operation similar to merge sort.
 
 ## Cracking the Coding Interview
 
