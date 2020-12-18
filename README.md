@@ -984,6 +984,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/977-squares-of-a-sorted-array)
 - O(N) solution using a stack to keep track of the squares of the negative numbers and perform a merge operation similar to merge sort.
 
+334 - Increasing Triplet Subsequence
+
+- [problem](https://leetcode.com/problems/increasing-triplet-subsequence/)
+- [solution](/leetcode/334-increasing-triplet-subsequence.js)
+- [repl](https://repl.it/@xiaoyunyang/334-increasing-triplet-subsequence)
+- O(N) solution by updating `first` and `second` in a loop.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
