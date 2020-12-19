@@ -991,6 +991,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/977-squares-of-a-sorted-array)
 - O(N) solution using a stack to keep track of the squares of the negative numbers and perform a merge operation similar to merge sort.
 
+98 - Validate Binary Search Tree
+
+- [problem](https://leetcode.com/problems/validate-binary-search-tree/)
+- [solution](/leetcode/98-validate-binary-search-tree.js)
+- [repl](https://repl.it/@xiaoyunyang/98-validate-binary-search-tree)
+- O(N) solution tree traversal and composition.
+
 334 - Increasing Triplet Subsequence
 
 - [problem](https://leetcode.com/problems/increasing-triplet-subsequence/)
