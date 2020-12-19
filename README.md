@@ -123,6 +123,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/135-candy)
 - O(N) Solution using Greedy algorithm. Evaluate left2right and right2left, then combine solution via max of the two.
 
+300 - Longest Increasing Subsequence
+
+- [problem](https://leetcode.com/problems/longest-increasing-subsequence/)
+- [solution](/leetcode/300-longest-increasing-subsequence.js)
+- [repl](https://repl.it/@xiaoyunyang/300-longest-increasing-subsequence)
+- O(N^2) solution using LIS dynamic programming or O(N logN) solution greedy algorithm.
+
 347 - Top K Frequent Elements
 
 - [problem](https://leetcode.com/problems/top-k-frequent-elements/)
