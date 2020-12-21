@@ -30,14 +30,14 @@ TOC
 - [Coding Challenges Collection](#coding-challenges-collection)
   - [Data Structures](#data-structures)
   - [LeetCode](#leetcode)
-    - [Leetcode April 2020 Challenge](#leetcode-april-2020-challenge)
-    - [Leetcode May 2020 Challenge](#leetcode-may-2020-challenge)
-    - [Leetcode June 2020 Challenge](#leetcode-june-2020-challenge)
-    - [Leetcode July 2020 Challenge](#leetcode-july-2020-challenge)
-    - [Leetcode August 2020 Challenge](#leetcode-august-2020-challenge)
-    - [Leetcode September 2020 Challenge](#leetcode-september-2020-challenge)
-    - [Leetcode November 2020 Challenge](#leetcode-november-2020-challenge)
-    - [Leetcode December 2020 Challenge](#leetcode-december-2020-challenge)
+    - [Leetcode 2020 04 Challenge](#leetcode-2020-04-challenge)
+    - [Leetcode 2020 05 Challenge](#leetcode-2020-05-challenge)
+    - [Leetcode 2020 06 Challenge](#leetcode-2020-06-challenge)
+    - [Leetcode 2020 07 Challenge](#leetcode-2020-07-challenge)
+    - [Leetcode 2020 08 Challenge](#leetcode-2020-08-challenge)
+    - [Leetcode 2020 09 Challenge](#leetcode-2020-09-challenge)
+    - [Leetcode 2020 11 Challenge](#leetcode-2020-11-challenge)
+    - [Leetcode 2020 12 Challenge](#leetcode-2020-12-challenge)
   - [Cracking the Coding Interview](#cracking-the-coding-interview)
     - [Arrays and Strings](#arrays-and-strings)
     - [Linked List](#linked-list)
@@ -237,7 +237,7 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/1472-design-browser-history)
 - Solution using a stack and a pointer for supporting forward operations.
 
-### Leetcode April 2020 Challenge
+### Leetcode 2020 04 Challenge
 
 136 - Single Number
 
@@ -274,7 +274,7 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/122-best-time-to-buy-and-sell-stocks-ii)
 - O(N) solution by adding to result if current price is greater than previous price.
 
-### Leetcode May 2020 Challenge
+### Leetcode 2020 05 Challenge
 
 278 - First Bad Version
 
@@ -493,7 +493,7 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/72-edit-distance)
 - O(N * M) solution using dynamic programming
 
-### Leetcode June 2020 Challenge
+### Leetcode 2020 06 Challenge
 
 520 - Detect Capital
 
@@ -611,7 +611,7 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/137-single-number-ii)
 - O(N) and constant space using bitwise operation.
 
-### Leetcode July 2020 Challenge
+### Leetcode 2020 07 Challenge
 
 441 - Arranging Coins
 
@@ -634,7 +634,7 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/66-plus-one)
 - O(N) solution using `unshift` to add new digit to the front of the array and use carry. Need to have a post processing step to add the extra one to the front as necessary.
 
-### Leetcode August 2020 Challenge
+### Leetcode 2020 08 Challenge
 
 226 - Invert Binary Tree
 
@@ -668,7 +668,7 @@ TOC
 - [solution](/leetcode/problems/442-find-all-duplicates-in-an-array.js)
 - O(N) solution using the repeated array update strategy. As we loop, we can negate the elements at index `j` where `j=Math.abs(nums[i])-1`. This works because the constraint: `1 ≤ a[i] ≤ n (n = size of array)`. If anytime we detect that element at index `j` is negative, that means the current element is a duplicate.
 
-### Leetcode September 2020 Challenge
+### Leetcode 2020 09 Challenge
 
 949 - Largest Time for Given Digits
 
@@ -789,7 +789,7 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/1291-sequential-digit)
 - O(N) solution by setting the limits of loops to min number of digits to max number of digits.
 
-### Leetcode November 2020 Challenge
+### Leetcode 2020 11 Challenge
 
 1290 - Convert Binary Number in a Linked List to Integer
 
@@ -920,7 +920,7 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/1306-jump-game-iii)
 - O(N) solution using DFS.
 
-### Leetcode December 2020 Challenge
+### Leetcode 2020 12 Challenge
 
 104 - Maximum Depth of Binary Tree
 
@@ -1004,6 +1004,13 @@ TOC
 - [solution](/leetcode/334-increasing-triplet-subsequence.js)
 - [repl](https://repl.it/@xiaoyunyang/334-increasing-triplet-subsequence)
 - O(N) solution by updating `first` and `second` in a loop.
+
+880 - Decoded String At Index
+
+- [problem](https://leetcode.com/problems/decoded-string-at-index/)
+- [solution](/leetcode/880-decoded-string-at-index.js)
+- [repl](https://repl.it/@xiaoyunyang/880-decoded-string-at-index)
+- O(N) and O(1) solution using index math.
 
 ## Cracking the Coding Interview
 
@@ -1139,7 +1146,7 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
   ```
 
   Output:
-  
+
   ```
   13,16 : 0.25
   19,24 : 0.14285714285714285
@@ -1207,7 +1214,7 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
     {"id": 15, "name": "Financial District", "parent_id": 13}
   ]
   ```
-  
+
   Print out:
 
   ```
@@ -1227,7 +1234,7 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
   -South Bay
   --San Jose
   ```
-  
+
   Rules: (1) Child locations should be immediately after their parent, with an extra dash prepended. (2) Locations of the same level of depth should be alphabetically sorted. (3) Assume that the actual list of location will be longer (up to 100 locations), and have max up to 5 levels of depth
 
 - [solution](/misc/deserialize-1.js)
