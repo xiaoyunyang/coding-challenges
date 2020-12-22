@@ -1012,6 +1012,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/880-decoded-string-at-index)
 - O(N) and O(1) solution using index math.
 
+110 - Balanced Binary Tree
+
+- [problem](https://leetcode.com/problems/balanced-binary-tree/)
+- [solution](/leetcode/110-balanced-binary-tree.js)
+- [repl](https://repl.it/@xiaoyunyang/110-balanced-binary-tree)
+- O(log N) tree traversal.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
