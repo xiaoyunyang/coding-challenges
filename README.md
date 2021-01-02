@@ -38,6 +38,7 @@ TOC
     - [Leetcode 2020 09 Challenge](#leetcode-2020-09-challenge)
     - [Leetcode 2020 11 Challenge](#leetcode-2020-11-challenge)
     - [Leetcode 2020 12 Challenge](#leetcode-2020-12-challenge)
+    - [Leetcode 2021 01 Challenge](#leetcode-2021-01-challenge)
   - [Cracking the Coding Interview](#cracking-the-coding-interview)
     - [Arrays and Strings](#arrays-and-strings)
     - [Linked List](#linked-list)
@@ -1018,6 +1019,15 @@ TOC
 - [solution](/leetcode/110-balanced-binary-tree.js)
 - [repl](https://repl.it/@xiaoyunyang/110-balanced-binary-tree)
 - O(log N) tree traversal.
+
+### Leetcode 2021 01 Challenge
+
+1640 - Check Array Formation Through Concatenation
+
+- [problem](https://leetcode.com/problems/check-array-formation-through-concatenation/)
+- [solution](/leetcode/1640-check-array-formation-through-concatenation.js)
+- [repl](https://repl.it/@xiaoyunyang/1640-check-array-formation-through-concatenation)
+- O(N) solution using a hash table and two pointers.
 
 ## Cracking the Coding Interview
 
