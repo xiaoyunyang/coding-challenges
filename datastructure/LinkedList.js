@@ -64,3 +64,34 @@ export default function LinkedList(arr) {
     loop(null, this.head)
   }
 }
+
+// Utility functions for Leetcode testing --------------------
+function ListNode(val, next) {
+  this.val = (val===undefined ? 0 : val)
+  this.next = (next===undefined ? null : next)
+}
+
+export function createLL(nodeVals) {
+  let head
+  let prev
+  for(let n of nodeVals) {
+    const node = new ListNode(n)
+    if(!prev) {
+      head = node
+    } else {
+      prev.next = node
+    }
+    prev = node
+  }
+  return head
+}
+
+export function serializeLL(head) {
+  let arr = []
+  let node = head
+  while(node) {
+    arr.push(node.val)
+    node = node.next
+  }
+  return JSON.stringify(arr)
+}
