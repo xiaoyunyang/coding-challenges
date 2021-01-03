@@ -1029,6 +1029,12 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/1640-check-array-formation-through-concatenation)
 - O(N) solution using a hash table and two pointers.
 
+1379 - Find a Corresponding Node of a Binary Tree in a Clone of That Tree
+
+- [problem](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)
+- [solution](/leetcode/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree.js)
+- O(logN) solution using tree traversal.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
