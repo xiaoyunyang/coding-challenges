@@ -1020,6 +1020,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/110-balanced-binary-tree)
 - O(log N) tree traversal.
 
+24 - Swap Nodes in Pairs
+
+- [problem](https://leetcode.com/problems/swap-nodes-in-pairs/)
+- [solution](/leetcode/24-swap-nodes-in-pairs.js)
+- [repl](https://repl.it/@xiaoyunyang/24-swap-nodes-in-pairs)
+- O(N) linked list traversal using three pointers `prev`, `curr`, and `next`.
+
 ### Leetcode 2021 01 Challenge
 
 1640 - Check Array Formation Through Concatenation
