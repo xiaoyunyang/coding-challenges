@@ -72,16 +72,11 @@ function ListNode(val, next) {
 }
 
 export function createLL(nodeVals) {
-  let head
-  let prev
-  for(let n of nodeVals) {
-    const node = new ListNode(n)
-    if(!prev) {
-      head = node
-    } else {
-      prev.next = node
-    }
-    prev = node
+  let head = null
+  for(let i=nodeVals.length-1; i>=0; i--) {
+    const node = new ListNode(nodeVals[i])
+    node.next = head
+    head = node
   }
   return head
 }
