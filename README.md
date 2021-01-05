@@ -1042,6 +1042,13 @@ TOC
 - [solution](/leetcode/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree.js)
 - O(logN) solution using tree traversal.
 
+21 - Merge Two Sorted Lists
+
+- [problem](https://leetcode.com/problems/merge-two-sorted-lists/)
+- [solution](/leetcode/21-merge-two-sorted-lists.js)
+- [repl](https://repl.it/@xiaoyunyang/21-merge-two-sorted-lists)
+- O(N) solution using while-loop to only increment one list node at a time. For the interim data structure for merged list, use array instead of linked list for better space performance
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
