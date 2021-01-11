@@ -1049,6 +1049,13 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/21-merge-two-sorted-lists)
 - O(N) solution using while-loop to only increment one list node at a time. For the interim data structure for merged list, use array instead of linked list for better space performance
 
+88 - Merge Sorted Array
+
+- [problem](https://leetcode.com/problems/merge-sorted-array/)
+- [solution](/leetcode/88-merge-sorted-array.js)
+- [repl](https://repl.it/@xiaoyunyang/88-merge-sorted-array)
+- O(N) solution using while-loop.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
