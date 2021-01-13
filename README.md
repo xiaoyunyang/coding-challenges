@@ -1056,6 +1056,12 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/88-merge-sorted-array)
 - O(N) solution using while-loop.
 
+2 - Add Two Numbers
+
+- [problem](https://leetcode.com/problems/add-two-numbers/)
+- [solution](/leetcode/2-add-two-numbers.js)
+- O(N) solution using while-loop, carry, and keeping track of the tail of the result linked list.
+
 ## Cracking the Coding Interview
 
 ### Arrays and Strings
