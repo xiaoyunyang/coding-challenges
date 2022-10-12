@@ -124,6 +124,12 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/135-candy)
 - O(N) Solution using Greedy algorithm. Evaluate left2right and right2left, then combine solution via max of the two.
 
+146 - LRU Cache
+
+- [problem](https://leetcode.com/problems/lru-cache/)
+- [solution](/leetcode/146-lru-cache.js)
+- [repl](https://repl.it/@xiaoyunyang/146-lru-cache)
+
 300 - Longest Increasing Subsequence
 
 - [problem](https://leetcode.com/problems/longest-increasing-subsequence/)
