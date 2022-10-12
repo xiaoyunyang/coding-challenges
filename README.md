@@ -138,6 +138,12 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/347-top-k-frequent-elements)
 - O(N log N) Solution by creating a frequency table.
 
+452 - Minimum Number of Arrows to Burst Balloons
+
+- [problem](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
+- [solution](/leetcode/452-minimum-number-of-arrows-to-burst-balloons.js)
+- [repl](https://repl.it/@xiaoyunyang/452-minimum-number-of-arrows-to-burst-balloons)
+
 594 - Longest Harmonious Subsequence
 
 - [problem](https://leetcode.com/problems/longest-harmonious-subsequence/)
