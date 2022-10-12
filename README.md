@@ -78,14 +78,14 @@ TOC
 39 - Combination Sum
 
 - [problem](https://leetcode.com/problems/combination-sum/)
-- [solution](/leetcode/https://leetcode.com/problems/39-combination-sum.js)
+- [solution](/leetcode/39-combination-sum.js)
 - [repl](https://repl.it/@xiaoyunyang/39-combination-sum)
 - O(N^T) solution using recursive backtracking.
 
 40 - Combination Sum II
 
 - [problem](https://leetcode.com/problems/combination-sum-ii/)
-- [solution](/leetcode/https://leetcode.com/problems/40-combination-sum-ii.js)
+- [solution](/leetcode/40-combination-sum-ii.js)
 - [repl](https://repl.it/@xiaoyunyang/40-combination-sum-ii)
 - O(N^T) solution using recursive backtracking.
 
@@ -150,7 +150,7 @@ TOC
 - [problem](https://leetcode.com/problems/employee-importance/)
 - [solution](/leetcode/690-employee-importance.js)
 - [repl](https://repl.it/@xiaoyunyang/690-employee-importance)
-- O(V*E) Solution by first creating a hash table for easy indexing of nodes in a graph, then traverse that graph via BFS.
+- O(V\*E) Solution by first creating a hash table for easy indexing of nodes in a graph, then traverse that graph via BFS.
 
 721 - Accounts Merge
 
@@ -366,7 +366,7 @@ TOC
 - [problem](https://leetcode.com/problems/remove-k-digits/)
 - [solution](/leetcode/402-remove-k-digits.js)
 - [repl](https://repl.it/@xiaoyunyang/402-remove-k-digits)
-- O(N * K) solution using greedy algorithm.
+- O(N \* K) solution using greedy algorithm.
 
 208 - Implement Trie (Prefix Tree)
 
@@ -422,7 +422,7 @@ TOC
 - [problem](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
 - [solution](/leetcode/1277-count-square-submatrices-with-all-ones.js)
 - [repl](https://repl.it/@xiaoyunyang/1277-count-square-submatrices-with-all-ones)
-- O(N * M) solution using dynamic programming. Create a sum matrix to keep track of number of ones seen in a row from top, left, and left diagonal
+- O(N \* M) solution using dynamic programming. Create a sum matrix to keep track of number of ones seen in a row from top, left, and left diagonal
 
 451 - Sort Characters By Frequency
 
@@ -450,7 +450,7 @@ TOC
 - [problem](https://leetcode.com/problems/uncrossed-lines/)
 - [solution](/leetcode/1035-uncrossed-lines.js)
 - [repl](https://repl.it/@xiaoyunyang/1035-uncrossed-lines)
-- O(A * B) solution using dynamic programming. Create a sub-problem solution matrix to keep track of the max uncrossed lines for the sub-arrays. The sub-problem is whether to include the current two items from A and B in the solution or not.
+- O(A \* B) solution using dynamic programming. Create a sub-problem solution matrix to keep track of the max uncrossed lines for the sub-arrays. The sub-problem is whether to include the current two items from A and B in the solution or not.
 
 525 - Contiguous Array
 
@@ -492,7 +492,7 @@ TOC
 - [problem](https://leetcode.com/problems/edit-distance/)
 - [solution](/leetcode/72-edit-distance.js)
 - [repl](https://repl.it/@xiaoyunyang/72-edit-distance)
-- O(N * M) solution using dynamic programming
+- O(N \* M) solution using dynamic programming
 
 ### Leetcode 2020 06 Challenge
 
@@ -667,7 +667,7 @@ TOC
 
 - [problem](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 - [solution](/leetcode/problems/442-find-all-duplicates-in-an-array.js)
-- O(N) solution using the repeated array update strategy. As we loop, we can negate the elements at index `j` where `j=Math.abs(nums[i])-1`. This works because the constraint: `1 ≤ a[i] ≤ n (n = size of array)`. If anytime we detect that element at index `j` is negative, that means the current element is a duplicate.
+- O(N) solution using the repeated array update strategy. As we loop, we can negate the elements at index `j` where `j=Math.abs(nums[i])-1`. This works because the constraint: `1 ≤ a[i] ≤ n (n = size of array)`. If anytime we detect that element at index `j` is negative, that means the current element is a duplicate.
 
 ### Leetcode 2020 09 Challenge
 
@@ -843,7 +843,7 @@ TOC
 - [problem](https://leetcode.com/problems/flipping-an-image/)
 - [solution](/leetcode/832-flipping-an-image.js)
 - [repl](https://repl.it/@xiaoyunyang/832-flipping-an-image)
-- O(N * M) solution by traversing the matrix. Use two pointers in a while loop method for optimization.
+- O(N \* M) solution by traversing the matrix. Use two pointers in a while loop method for optimization.
 
 593 - Valid Square
 
@@ -1073,35 +1073,35 @@ TOC
 - [repl](https://repl.it/@xiaoyunyang/CTCI-1-1-is-unique)
 - O(N) solution with hash table or O(NlogN) with sorting.
 
-1.2 - checkPermutation
+  1.2 - checkPermutation
 
 - Problem: given two strings, determine if the second string is a permutation (anagram) of the first string.
 - [solution](/CTCI/1-2-check-permutation.js)
 - [repl](https://repl.it/@xiaoyunyang/CTCI-1-2-check-permutation)
 - O(N) solution with hash table or O(NlogN) with sorting. Optimization up-front: if lengths of the strings are different, return false immediately.
 
-1.3 - URLify
+  1.3 - URLify
 
 - Problem: given a string, replace all the whitespaces with "%20".
 - [solution](/CTCI/1-3-URLify.js)
 - [repl](https://repl.it/@xiaoyunyang/CTCI-1-3-URLify)
 - O(N) solution. Use regex `/^\s$` to test each character to see if it is a whitespace. Need to handle edge cases such as if there are mutiple whitespaces in a row or whitespaces at the end of the string.
 
-1.4 - Palindrome Permutation
+  1.4 - Palindrome Permutation
 
 - Problem: Given a string, determine if the string is a permutation of a palindrome.
 - [solution](/CTCI/1-4-palindrome-permutation.js)
 - [repl](https://repl.it/@xiaoyunyang/CTCI-1-4-palindrome-permutation)
 - O(N) solution using a hash table. Use `str.replace(/\s/g, '')` to get the string without whitespaces.
 
-1.5 - One Away
+  1.5 - One Away
 
 - Problem: Given s1 and s2, determine if s1 and s2 differ by one edit away. Define edit as inserting a char, deleting a char, or replacing a char.
 - [solution](/CTCI/1-5-one-away.js)
 - [repl](https://repl.it/@xiaoyunyang/CTCI-1-5-one-away)
 - O(N) solution. Modularize the solution by writing helper functions.
 
-1.6 - String Compression
+  1.6 - String Compression
 
 - Problem: Given a string with a number of characters in a row, compress the string by replacing the repeated characters with the character, followed by the number of occurrences. For example, aabcccccaaa becomes a2b1c5a3. If the compressed string would not be smaller than the original string, the function shall return the original string.
 - [solution](/CTCI/1-6-string-compression.js)
@@ -1132,7 +1132,7 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
 - [repl](https://repl.it/@xiaoyunyang/CTCI-4-1-route-between-nodes)
 - We can use either BFS or DFS for this problem. BFS is more efficient. Make sure we set graph node state to `UNVISITED`, `VISITED`, `VISITING` as we traverse through the graph.
 
-4.2 - Minimal Tree
+  4.2 - Minimal Tree
 
 - Problem: Given a sorted (increasing order) array with unique elements, write an algorithm to create a Binary Search Tree (BST) with minimal height.
 - [solution](/CTCI/4-2-minimal-tree.js)
@@ -1154,25 +1154,25 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
 - [solution](/CTCI/16-10-living-people.js)
 - [repl](https://repl.it/@xiaoyunyang/CTCI-16-10-living-people)
 
-16.20 - Phoney Words
+  16.20 - Phoney Words
 
 - Problem: On old cellphones,users typed on a numeric keypad and the phone would provide a list of words that matched these numbers. Each digit mapped to a set of 0 - 4 letters. Implement an algorithm to return a list of matching words, given a sequence of digits representing a phone number. You are provided a list of valid words (provided in whatever data structure you'd like).
 
-    ```
-    1     2     3
-          ABC   DEF
-    4     5     6
-    GHI   JKL   MNO
-    7     8     9
-    TUV   WXYZ  PQRS
-          0
-    ```
+  ```
+  1     2     3
+        ABC   DEF
+  4     5     6
+  GHI   JKL   MNO
+  7     8     9
+  TUV   WXYZ  PQRS
+        0
+  ```
 
 - [solution](/CTCI/16-20-phoney-words.js)
 - [repl](https://repl.it/@xiaoyunyang/CTCI-16-20-phoney-words)
-- Note: O(M * N) where M is number of valid words in the dictionary and N is the length of the phone number. Because N is a small number (phone numbers are usually length 10), we can treat this as a constant. Therefore, the runtime is O(M).
+- Note: O(M \* N) where M is number of valid words in the dictionary and N is the length of the phone number. Because N is a small number (phone numbers are usually length 10), we can treat this as a constant. Therefore, the runtime is O(M).
 
-16.21 - Sum Swap
+  16.21 - Sum Swap
 
 - Problem: Given two arrays of integers, find a pair of values (one value from each array) that you can swap to give the two arrays the same sum
 - [solution](/CTCI/16-21-sum-swap.js)
@@ -1188,11 +1188,11 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
 
   ```javascript
   const input = {
-    13: [14,15,100,9,3],
+    13: [14, 15, 100, 9, 3],
     16: [32, 1, 9, 3, 5],
     19: [15, 29, 2, 6, 8, 7],
-    24: [7, 10]
-  }
+    24: [7, 10],
+  };
   ```
 
   Output:
@@ -1216,27 +1216,33 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
   Given grid and point:
 
   ```javascript
-  let grid = [ // grid could be any size
-    ['blue', 'blue', 'red', 'red', 'red'],
-    ['pink', 'pink', 'red', 'red', 'red'],
-    ['red', 'pink', 'green', 'green', 'red'],
-    ['red', 'red', 'green', 'red', 'green'],
-    ['red', 'green', 'red', 'red', 'red'],
-  ]
+  let grid = [
+    // grid could be any size
+    ["blue", "blue", "red", "red", "red"],
+    ["pink", "pink", "red", "red", "red"],
+    ["red", "pink", "green", "green", "red"],
+    ["red", "red", "green", "red", "green"],
+    ["red", "green", "red", "red", "red"],
+  ];
 
-  let p = [4,2] // a valid location in the grid
+  let p = [4, 2]; // a valid location in the grid
   ```
 
   find all the locations which has the same color as the given location return the location (indices) in ascending order. For example, given the grid and point above, you should return:
 
   ```javascript
-  [ [ 3, 3 ], [ 4, 2 ], [ 4, 3 ], [ 4, 4 ] ]
+  [
+    [3, 3],
+    [4, 2],
+    [4, 3],
+    [4, 4],
+  ];
   ```
 
 - [solution](/misc/flood-fill.js)
 - [repl](https://repl.it/@xiaoyunyang/flood-fill)
 - The key to solving this problem is you can use depth-first-search (DFS) or breadth-first-search (BFS) and maintain a list of explored nodes. I solved the problem using both DFS with recursion and BFS using queue + while loop. Both provide the same result. For printing out the list of points in ascending order, I had a separate function that sorted the result using JavaScript's built-in sort (quicksort), which has O(NlogN) runtime. A potential optimization for the overall algorithm is to maintain the result as a heap rather than an array. Using an array, insert is O(1) as we use the `Array.prototype.push` method; however, the tradeoff is we need to run the O(N logN) algorithm at the end. However, if we use a min heap, inserting into a min heap is O(logN). The advantage is we don't have to sort afterwards, rather, we extract the min from the min heap (runtime O(1)) until the heap is empty. In a min heap, the parent is guaranteed to be smaller than its children so we could recursively extract elements in increasing order from the min heap starting from the root of the heap and working our way down the children.
-- The recursion approach is also called the implicit stack-based approach because we are  creating call stacks when we recurse. This is less memory efficient than a real stack.
+- The recursion approach is also called the implicit stack-based approach because we are creating call stacks when we recurse. This is less memory efficient than a real stack.
 - For more on the flood fill problem, read the [wiki article](https://www.wikiwand.com/en/Flood_fill)
 
 ### Deserialize-1
@@ -1247,22 +1253,22 @@ See JavaScript Implementations of [Queue](/datastructure/Queue.js) using Doubly 
 
   ```javascript
   const locations = [
-    {"id": 1, "name": "San Francisco Bay Area", "parent_id": null},
-    {"id": 2, "name": "San Jose", "parent_id": 3},
-    {"id": 3, "name": "South Bay", "parent_id": 1},
-    {"id": 4, "name": "San Francisco", "parent_id": 1},
-    {"id": 5, "name": "Manhattan", "parent_id": 6},
-    {"id": 6, "name": "New York", "parent_id": null},
-    {"id": 7, "name": "Menlo Park", "parent_id": 1},
-    {"id": 8, "name": "Brooklyn", "parent_id": 6},
-    {"id": 9, "name": "Alphabet City", "parent_id": 10},
-    {"id": 10, "name": "East Village", "parent_id": 13},
-    {"id": 11, "name": "Greenpoint", "parent_id": 8},
-    {"id": 12, "name": "Williamsburg", "parent_id": 8},
-    {"id": 13, "name": "Lower Manhattan", "parent_id": 5},
-    {"id": 14, "name": "Soho", "parent_id": 13},
-    {"id": 15, "name": "Financial District", "parent_id": 13}
-  ]
+    { id: 1, name: "San Francisco Bay Area", parent_id: null },
+    { id: 2, name: "San Jose", parent_id: 3 },
+    { id: 3, name: "South Bay", parent_id: 1 },
+    { id: 4, name: "San Francisco", parent_id: 1 },
+    { id: 5, name: "Manhattan", parent_id: 6 },
+    { id: 6, name: "New York", parent_id: null },
+    { id: 7, name: "Menlo Park", parent_id: 1 },
+    { id: 8, name: "Brooklyn", parent_id: 6 },
+    { id: 9, name: "Alphabet City", parent_id: 10 },
+    { id: 10, name: "East Village", parent_id: 13 },
+    { id: 11, name: "Greenpoint", parent_id: 8 },
+    { id: 12, name: "Williamsburg", parent_id: 8 },
+    { id: 13, name: "Lower Manhattan", parent_id: 5 },
+    { id: 14, name: "Soho", parent_id: 13 },
+    { id: 15, name: "Financial District", parent_id: 13 },
+  ];
   ```
 
   Print out:
