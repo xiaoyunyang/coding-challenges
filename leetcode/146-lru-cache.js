@@ -18,12 +18,18 @@ class LRUCache {
     const newNode = {
       key,
       value,
-      prev: prevLastNode,
     };
 
+    // make old last node and
+    // new last node point to each other
+    newNode.prev = prevLastNode;
     prevLastNode.next = newNode;
+
+    // make new last node the tail
     newNode.next = this.tail;
     this.tail.prev = newNode;
+
+    // add new tail node to cache
     this.cache.set(key, newNode);
   }
   delete(key) {
